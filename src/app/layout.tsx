@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
 import { Inter } from "next/font/google";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
 
@@ -29,6 +30,8 @@ export default function RootLayout({
           <Footer />
           <ScrollToTop />
         </Providers>
+
+        <SpeedInsights />
       </body>
     </html>
   );
