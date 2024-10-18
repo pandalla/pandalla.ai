@@ -80,5 +80,11 @@ const menuData: Menu[] = [
       },
     ],
   },
+  {
+    id: 5,
+    title: "Features",
+    path: "/features",
+    newTab: false,
+  },
 ];
 export default menuData;
