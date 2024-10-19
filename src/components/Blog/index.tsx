@@ -24,8 +24,8 @@ const Blog = () => {
     >
       <div className="container">
         <SectionTitle
-          title="我们的最新博客"
-          paragraph="这里是博客部分的简介。您可以根据需要自定义此文本。"
+          title="Our Latest Blogs"
+          paragraph="Welcome to our blog, where we share the latest in synthetic data and data augmentation technologies. Stay updated on cutting-edge Generate AI developments through our technical articles and insights."
           center
         />
 

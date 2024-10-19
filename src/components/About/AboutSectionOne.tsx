@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="The Evolution of LLM training"
+                paragraph="Post-training optimization and high-quality synthetic data are revolutionizing AI model development, as evidenced by the transition from InstructGPT to Llama 3.1/Nemotron approaches."
                 mb="44px"
               />
 
@@ -35,33 +35,35 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="100x increase in training data (10k to 1M+)" />
+                    <List text="Synthetic + human instructions for diversity" />
+                    <List text="Multi-round optimization (N iterations)" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="Advanced techniques: DPO, PPO, Rejection Sampling" />
+                    <List text="LLM as preference judge" />
+                    <List text="Continuous synthetic data generation" />
                   </div>
                 </div>
               </div>
             </div>
 
             <div className="w-full px-4 lg:w-1/2">
-              <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
+              <div className="relative mx-auto max-w-[900px] lg:mr-0">
                 <Image
-                  src="/images/about/about-image.svg"
-                  alt="about-image"
-                  fill
-                  className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
+                  src="/images/about/2era_alignment.png"
+                  alt="AI Model Alignment Evolution"
+                  width={600}
+                  height={576}
+                  className="mx-auto max-w-full w-full h-auto drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
                 />
                 <Image
-                  src="/images/about/about-image-dark.svg"
-                  alt="about-image"
-                  fill
-                  className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
+                  src="/images/about/2era_alignment.png"
+                  alt="AI Model Alignment Evolution"
+                  width={600}
+                  height={576}
+                  className="mx-auto hidden max-w-full w-full h-auto drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
                 />
               </div>
             </div>
