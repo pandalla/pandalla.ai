@@ -49,8 +49,4 @@ const AboutSectionThree = () => {
   );
 };
 
-<<<<<<< HEAD
-export default AboutSectionTwo;
-=======
 export default AboutSectionThree;
->>>>>>> origin/video_init
