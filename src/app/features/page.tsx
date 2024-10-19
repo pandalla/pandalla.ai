@@ -32,8 +32,8 @@ const FeaturesPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Features Page"
-        description="探索我们产品的所有强大功能。我们为您的业务需求提供创新解决方案。"
+        pageName="Features"
+        description="Discover our powerful suite of tools designed to elevate your business. Innovative solutions tailored to your needs."
       />
       <Features />
     </>
