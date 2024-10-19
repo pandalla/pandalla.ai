@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useEffect, useState, useRef } from 'react';
-import { useRouter } from 'next/navigation';
 
 interface TOCItem {
   id: string;
@@ -14,7 +13,6 @@ const TableOfContents: React.FC = () => {
   const [isVisible, setIsVisible] = useState(true);
   const [activeId, setActiveId] = useState<string>('');
   const tocRef = useRef<HTMLDivElement>(null);
-  const router = useRouter();
 
   useEffect(() => {
     const article = document.querySelector('.blog-details');
@@ -23,7 +21,7 @@ const TableOfContents: React.FC = () => {
 
     headings?.forEach((heading) => {
       const id = heading.id || heading.textContent?.toLowerCase().replace(/\s+/g, '-') || '';
-      heading.id = id;  // 确保标题有 ID
+      heading.id = id;  // Ensure the heading has an ID
       const text = heading.textContent || '';
       const level = parseInt(heading.tagName[1]);
       tocItems.push({ id, text, level });
@@ -48,7 +46,7 @@ const TableOfContents: React.FC = () => {
     };
 
     window.addEventListener('scroll', handleScroll);
-    handleScroll(); // 初始化时调用一次
+    handleScroll(); // Call once on initialization
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
@@ -61,9 +59,8 @@ const TableOfContents: React.FC = () => {
       if (activeElement) {
         activeElement.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
       }
-      router.push(`#${activeId}`, { scroll: false });
     }
-  }, [activeId, router]);
+  }, [activeId]);
 
   const toggleVisibility = () => {
     setIsVisible(!isVisible);
