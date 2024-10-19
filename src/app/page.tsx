@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description: "Elevate your data strategy, safeguard privacy, and accelerate innovation with Pandalla.ai's state-of-the-art synthetic data and AI technologies.",
     images: [
       {
-        url: "https://pandalla.ai/images/og-image.jpg",
+        url: "https://pandalla.ai/images/og-image.png",
         width: 1200,
         height: 630,
         alt: "Pandalla.ai - Synthetic Data and AI Solutions",
