@@ -15,8 +15,8 @@ const AboutPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="About Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="About Us"
+        description="We are pioneers in the field of data synthesis, offering innovative solutions grounded in deep industry insights. Through advanced algorithms and extensive experience, we generate high-quality synthetic data that meets the needs of diverse industries. We believe that as data privacy regulations become stricter and AI rapidly evolves, synthetic data will be crucial for future data-driven decision-making. Our technology not only protects privacy but also enhances data usability and diversity, creating limitless possibilities for our clients."
       />
       <AboutSectionOne />
       {/* <AboutSectionTwo /> */}

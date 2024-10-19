@@ -5,8 +5,8 @@
 @tailwind utilities;
 
 @layer base {
-  body {
-    font-family: "Inter", sans-serif;
+  html, body {
+    font-family: Inter, system-ui, sans-serif;
   }
 }
 
