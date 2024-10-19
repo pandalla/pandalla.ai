@@ -78,7 +78,9 @@ interface CodeProps {
   inline?: boolean;
   className?: string;
   children: React.ReactNode;
+  [key: string]: any; // 添加这一行以允许其他属性
 }
+
 
 export default async function BlogPost({ params }: { params: { slug: string } }) {
   const postData = await getPostData(params.slug);
@@ -150,23 +152,23 @@ export default async function BlogPost({ params }: { params: { slug: string } })
                       return <h3 id={id} className="mt-4 mb-2 text-2xl font-medium">{children}</h3>; {/* Reduced top margin */ }
                     }
                   }}
-                >
-                  {postData.content}
-                </ReactMarkdown>
+                  >
+                    {postData.content}
+                  </ReactMarkdown>
+                </div>
+                <ArticleMeta
+                  keywords={postData.keywords}
+                  url={url}
+                  title={postData.title}
+                  content={postData.content}
+                />
               </div>
-              <ArticleMeta
-                keywords={postData.keywords}
-                url={url}
-                title={postData.title}
-                content={postData.content}
-              />
-            </div>
-            <div className="w-full lg:w-1/4">
-              <TableOfContents />
+              <div className="w-full lg:w-1/4">
+                <TableOfContents />
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-    </>
-  );
-}
+        </section>
+      </>
+    );
+  }
