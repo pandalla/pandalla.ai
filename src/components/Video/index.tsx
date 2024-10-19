@@ -10,7 +10,7 @@ const Video = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <section className="relative z-10 py-16 md:py-20 lg:py-28">
+    <section className="relative z-10 py-16 md:py-20 lg:py-28 font-inter">
       <div className="container">
         <SectionTitle
           title="AI-Driven Synthetic Video Annotation is coming"
