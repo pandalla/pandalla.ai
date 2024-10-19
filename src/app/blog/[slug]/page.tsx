@@ -78,6 +78,7 @@ interface CodeProps {
   inline?: boolean;
   className?: string;
   children: React.ReactNode;
+  [key: string]: any; // 添加这一行以允许其他属性
 }
 
 
@@ -106,7 +107,7 @@ export default async function BlogPost({ params }: { params: { slug: string } })
                   remarkPlugins={[remarkGfm, [remarkRehype, { allowDangerousHtml: true }]]}
                   rehypePlugins={[rehypeRaw, rehypeStringify]}
                   components={{
-                    code({ node, inline, className, children, ...props }) {
+                    code({ node, inline, className, children, ...props }: CodeProps) {
                       const match = /language-(\w+)/.exec(className || '')
                       return !inline && match ? (
                         <SyntaxHighlighter
