@@ -12,6 +12,14 @@ const Contact = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    
+    // 验证必填字段
+    if (!email || !company || !message) {
+      setStatus('Email, company, and message are required fields.');
+      setTimeout(() => setStatus(''), 3000);
+      return;
+    }
+    
     setStatus('Sending...');
   
     try {
@@ -35,9 +43,13 @@ const Contact = () => {
       } else {
         setStatus('Failed to send email. Please try again later.');
       }
+      
+      // 设置3秒后清除状态消息
+      setTimeout(() => setStatus(''), data.timeout || 3000);
     } catch (error) {
       console.error('Error:', error);
       setStatus('An error occurred. Please try again later.');
+      setTimeout(() => setStatus(''), 3000);
     }
   };
 
@@ -74,13 +86,14 @@ const Contact = () => {
                     htmlFor="email"
                     className="mb-3 block text-sm font-medium text-dark dark:text-white"
                   >
-                    Your Email
+                    Your Email*
                   </label>
                   <input
                     type="email"
                     placeholder="Enter your email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
+                    required
                     className="border-stroke w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                   />
                 </div>
@@ -89,13 +102,14 @@ const Contact = () => {
                     htmlFor="company"
                     className="mb-3 block text-sm font-medium text-dark dark:text-white"
                   >
-                    Company/Organization Name
+                    Company/Organization Name*
                   </label>
                   <input
                     type="text"
                     placeholder="Enter your company or organization name"
                     value={company}
                     onChange={(e) => setCompany(e.target.value)}
+                    required
                     className="border-stroke w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                   />
                 </div>
@@ -119,7 +133,7 @@ const Contact = () => {
                     htmlFor="message"
                     className="mb-3 block text-sm font-medium text-dark dark:text-white"
                   >
-                    Your Message
+                    Your Message*
                   </label>
                   <textarea
                     name="message"
@@ -127,6 +141,7 @@ const Contact = () => {
                     placeholder="Enter your message"
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
+                    required
                     className="border-stroke w-full resize-none rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                   ></textarea>
                 </div>
