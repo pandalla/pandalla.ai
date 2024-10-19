@@ -2,6 +2,7 @@ import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import AboutSectionThree from "@/components/About/AboutSectionThree";
 import Breadcrumb from "@/components/Common/Breadcrumb";
+import Video from "@/components/Video";
 
 import { Metadata } from "next";
 
@@ -37,6 +38,7 @@ const AboutPage = () => {
         pageName="About Us"
         description="We are pioneers in the field of data synthesis, offering innovative solutions grounded in deep industry insights. Through advanced algorithms and extensive experience, we generate high-quality synthetic data that meets the needs of diverse industries. We believe that as data privacy regulations become stricter and AI rapidly evolves, synthetic data will be crucial for future data-driven decision-making. Our technology not only protects privacy but also enhances data usability and diversity, creating limitless possibilities for our clients."
       />
+      <Video />
       <AboutSectionOne />
       {/* <AboutSectionTwo /> */}
       <AboutSectionThree />
