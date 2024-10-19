@@ -41,7 +41,7 @@ const BlogDetails: React.FC<ArticleMetaProps> = ({ keywords, url, title, image, 
         <h1 style="font-size: 36px; color: #333;">${title}</h1>
         <img src="${image}" alt="文章封面" style="max-width: 100%; max-height: 300px; object-fit: cover;"/>
         <p style="font-size: 18px; color: #666;">${content.substring(0, 200)}...</p>
-        <p style="font-size: 14px; color: #999;">来自 Pandalla.AI</p>
+        <p style="font-size: 14px; color: #999;">From Pandalla.AI</p>
       </div>
     `;
     document.body.appendChild(element);
