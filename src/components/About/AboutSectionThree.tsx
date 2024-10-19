@@ -11,7 +11,7 @@ const MetricCard = ({ value, description }) => (
   </div>
 );
 
-const AboutSectionTwo = () => {
+const AboutSectionThree = () => {
   return (
     <section className="py-16 md:py-20 lg:py-24">
       <div className="container max-w-6xl mx-auto px-4">
@@ -40,7 +40,7 @@ const AboutSectionTwo = () => {
               <MetricCard value="84%" description="Efficiency Increase" />
               <MetricCard value="1300+" description="Hours Saved Per Project" />
               <MetricCard value="$52K" description="Average Cost Savings" />
-              <MetricCard value="1.3B+" description="Total Data Records Generated" />
+              <MetricCard value="1.4B+" description="Total Data Records Generated" />
             </div>
           </div>
         </div>
@@ -49,4 +49,4 @@ const AboutSectionTwo = () => {
   );
 };
 
-export default AboutSectionTwo;
+export default AboutSectionThree;
