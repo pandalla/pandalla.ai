@@ -24,7 +24,7 @@ const AboutSectionThree = () => {
           <div className="w-full px-4 lg:w-1/2 mb-10 lg:mb-0">
             <div className="relative">
               <h2 className="mb-6 text-3xl font-bold text-black dark:text-white sm:text-4xl lg:text-3xl xl:text-4xl">
-                We boost your project's efficiency and savings.
+              {`We boost your project's efficiency and savings.`}
               </h2>
               <div className="w-20 h-1 bg-purple-600 mb-6"></div>
               <p className="mb-8 text-lg font-medium leading-relaxed text-body-color">
