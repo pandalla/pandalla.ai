@@ -2,7 +2,7 @@
 title: "Data Collection Magic: Acquiring Top Training Data"
 date: "2024-04-12"
 excerpt: "this is a article about data collection, which is a important part of LLM data engineering, and also a hot topic in the field of web crawler."
-coverImage: "blog-01.jpg"
+coverImage: "blog-01.png"
 author:
   name: "Jessy Tsui"
   avatar: "panda.jpg"
