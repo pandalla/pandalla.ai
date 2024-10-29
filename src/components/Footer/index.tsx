@@ -51,7 +51,7 @@ const Footer = () => {
                     </svg>
                   </a> */}
                   <a
-                    href="https://x.com/data_tager"
+                    href="https://x.com/PandallaAI"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"

@@ -9,7 +9,7 @@ const SingleBlog = ({ blog }) => {
   const { title, slug, date, excerpt, coverImage, author } = blog;
   const imageSrc = coverImage 
     ? `/images/blog/${coverImage}` 
-    : "/images/blog/blog-default.jpg";
+    : "/images/blog/blog-default.png";
   const avatarSrc = author?.avatar
     ? `/images/blog/${author.avatar}`
     : "/images/blog/author-default.jpg";
