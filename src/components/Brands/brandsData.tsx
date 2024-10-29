@@ -23,6 +23,13 @@ const brandsData: Brand[] = [
     imageLight: "/images/brands/BAAI-light.png",
   },
   {
+    id: 3,
+    name: "one2x",
+    href: "https://pandalla.ai/",
+    image: "/images/brands/one2x.svg",
+    imageLight: "/images/brands/one2x-light.svg",
+  },
+  {
     id: 2,
     name: "netease",
     href: "https://neteasegames.com",
