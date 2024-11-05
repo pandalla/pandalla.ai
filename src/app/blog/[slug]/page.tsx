@@ -19,7 +19,7 @@ const ArticleMeta = dynamic(() => import('@/components/Blog/ArticleMeta'), {
 
 export async function generateStaticParams() {
   const postsDirectory = path.join(process.cwd(), 'public', 'blog');
-  const filenames = fs.readdirSync(postsDirectory);
+  const filenames = fs.readdirSync(postsDirectory).filter(file => !file.startsWith('.DS_Store'));
 
   return filenames
     .filter(filename => !filename.endsWith('_zh.md'))
