@@ -21,20 +21,11 @@ export default function LanguageSwitcher() {
   const currentLanguage = languages.find(lang => lang.code === locale) || languages[0];
 
   const handleLanguageChange = (langCode: string) => {
-    let newPathname = pathname;
+    // Extract the path without locale prefix
+    const pathWithoutLocale = pathname.replace(/^\/[a-z]{2}/, '') || '/';
     
-    // Handle the case where the current locale is in the URL
-    if (pathname.startsWith(`/${locale}`)) {
-      newPathname = pathname.replace(`/${locale}`, `/${langCode}`);
-    } else {
-      // Handle default locale case
-      newPathname = `/${langCode}${pathname}`;
-    }
-    
-    // If switching to default locale (en), remove locale prefix
-    if (langCode === 'en') {
-      newPathname = pathname.replace(`/${locale}`, '') || '/';
-    }
+    // Build new path with selected locale
+    const newPathname = `/${langCode}${pathWithoutLocale}`;
     
     router.push(newPathname);
     setIsOpen(false);

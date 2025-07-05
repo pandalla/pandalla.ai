@@ -1,11 +1,5 @@
 import { Metadata } from 'next'
-import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
 import { SpeedInsights } from '@vercel/speed-insights/next';
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
-import ScrollToTop from "@/components/ScrollToTop";
-import { Providers } from "./providers";
 import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
 import "../styles/ursine-theme.css";
@@ -42,29 +36,18 @@ export const metadata: Metadata = {
   },
 }
 
-export default async function RootLayout({
+export default function RootLayout({
   children,
-  params: { locale }
 }: {
   children: React.ReactNode;
-  params: { locale: string };
 }) {
-  const messages = await getMessages();
-
   return (
-    <html suppressHydrationWarning lang={locale}>
+    <html suppressHydrationWarning>
       <head>
         <link rel="icon" href="/images/logo/pandalla-image.png_16x16.ico" sizes="any" />
       </head>
       <body className="bg-[#FCFCFC] dark:bg-black">
-        <NextIntlClientProvider messages={messages}>
-          <Providers>
-            <Header />
-            {children}
-            <Footer />
-            <ScrollToTop />
-          </Providers>
-        </NextIntlClientProvider>
+        {children}
         <SpeedInsights />
       </body>
     </html>
