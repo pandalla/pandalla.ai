@@ -1,10 +1,12 @@
 "use client";
 import { Brand } from "@/types/brand";
 import Image from "next/image";
+import { useTranslations } from 'next-intl';
 import brandsData from "./brandsData";
 import { useEffect, useRef } from "react";
 
 const Brands = () => {
+  const t = useTranslations('Brands');
   const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -34,6 +36,11 @@ const Brands = () => {
   return (
     <section className="pt-8 pb-8 overflow-hidden">
       <div className="container max-w-4xl mx-auto px-4">
+        <div className="text-center mb-8">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
+            {t('title')}
+          </h2>
+        </div>
         <div 
           ref={scrollRef}
           className="flex overflow-hidden"

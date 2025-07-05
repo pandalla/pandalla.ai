@@ -1,15 +1,18 @@
+'use client';
+import { useTranslations } from 'next-intl';
 import SectionTitle from "../Common/SectionTitle";
 import SingleFeature from "./SingleFeature";
 import featuresData from "./featuresData";
 
 const Features = () => {
+  const t = useTranslations('Features');
   return (
     <>
       <section id="features" className="py-16 md:py-20 lg:py-28 font-inter">
         <div className="container">
           <SectionTitle
-            title="Main Features"
-            paragraph="Empowering GenAI Development with Premium Data, Cutting-Edge Research, and Seamless Model Access Across Industries."
+            title={t('title')}
+            paragraph={t('subtitle')}
             center
           />
 

@@ -1,10 +1,12 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useTranslations } from 'next-intl';
 import SectionTitle from "../Common/SectionTitle";
 import SingleBlog from "./SingleBlog";
 
 const Blog = () => {
+  const t = useTranslations('Blog');
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
@@ -24,8 +26,8 @@ const Blog = () => {
     >
       <div className="container">
         <SectionTitle
-          title="Our Latest Blogs"
-          paragraph="Welcome to our blog, where we share the latest in synthetic data and data augmentation technologies. Stay updated on cutting-edge Generate AI developments through our technical articles and insights."
+          title={t('title')}
+          paragraph={t('subtitle')}
           center
         />
 

@@ -15,19 +15,68 @@
   },
   "About": {
     "title": "领先的合成数据解决方案",
-    "subtitle": "用高质量合成数据革新AI"
+    "subtitle": "用高质量合成数据革新AI",
+    "sectionOne": {
+      "title": "专为初创企业和SaaS业务打造",
+      "subtitle": "无Bug代码，精品质量设计",
+      "description": "StartupBro是初创企业和SaaS公司的完整商业解决方案。它提供运营成功企业所需的所有功能。",
+      "list": [
+        "精品质量",
+        "终身使用",
+        "Next.js技术",
+        "丰富文档"
+      ]
+    },
+    "sectionTwo": {
+      "title": "高质量设计遇见高性能代码",
+      "subtitle": "初创企业需要可靠的解决方案",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus."
+    }
   },
   "Features": {
-    "title": "核心功能",
-    "subtitle": "合成数据生成所需的一切"
+    "title": "主要功能",
+    "subtitle": "有许多Lorem Ipsum的变体可用，但大多数都受到了某种形式的改变。"
   },
   "Contact": {
-    "title": "联系我们",
-    "subtitle": "准备好改变您的数据策略了吗？"
+    "title": "需要帮助？提交工单",
+    "subtitle": "我们的支持团队将通过电子邮件尽快回复您。",
+    "newsletter": {
+      "title": "订阅以接收未来更新",
+      "subtitle": "Lorem ipsum dolor sited Sed ullam corper consectur adipiscing Mae ornare massa quis lectus.",
+      "placeholder": "输入您的邮箱",
+      "button": "订阅"
+    }
+  },
+  "Footer": {
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lobortis molestie odio, a imperdiet enim imperdiet sit.",
+    "company": "公司",
+    "support": "支持",
+    "links": {
+      "about": "关于我们",
+      "contact": "联系我们",
+      "careers": "招聘",
+      "blog": "博客",
+      "help": "帮助中心",
+      "privacy": "隐私政策",
+      "terms": "服务条款"
+    }
+  },
+  "Blog": {
+    "title": "我们的最新博客",
+    "subtitle": "有许多Lorem Ipsum的变体可用，但大多数都受到了某种形式的改变。",
+    "readMore": "阅读更多",
+    "author": "作者",
+    "date": "日期"
+  },
+  "Brands": {
+    "title": "受到全球品牌信赖"
   },
   "Common": {
     "learnMore": "了解更多",
     "getStarted": "开始使用",
-    "readMore": "阅读更多"
+    "readMore": "阅读更多",
+    "viewAll": "查看全部",
+    "close": "关闭",
+    "menu": "菜单"
   }
 }

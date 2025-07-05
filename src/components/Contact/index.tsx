@@ -1,8 +1,10 @@
 'use client';
 
 import { useState } from 'react'
+import { useTranslations } from 'next-intl';
 
 const Contact = () => {
+  const t = useTranslations('Contact');
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [company, setCompany] = useState('')

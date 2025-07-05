@@ -15,19 +15,68 @@
   },
   "About": {
     "title": "最先端の合成データソリューション",
-    "subtitle": "高品質な合成データでAIに革命を"
+    "subtitle": "高品質な合成データでAIに革命を",
+    "sectionOne": {
+      "title": "スタートアップとSaaSビジネス向けに設計",
+      "subtitle": "バグフリーコードとプレミアム品質デザイン",
+      "description": "StartupBroは、スタートアップやSaaS企業向けの完全なビジネスソリューションです。成功するビジネスを運営するために必要なすべての機能が含まれています。",
+      "list": [
+        "プレミアム品質",
+        "生涯使用",
+        "Next.js",
+        "豊富なドキュメント"
+      ]
+    },
+    "sectionTwo": {
+      "title": "高品質デザインと高性能コードの融合",
+      "subtitle": "スタートアップには信頼できるソリューションが必要",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus."
+    }
   },
   "Features": {
-    "title": "コア機能",
-    "subtitle": "合成データ生成に必要なすべて"
+    "title": "主な機能",
+    "subtitle": "Lorem Ipumの多くのバリエーションが利用可能ですが、大部分は何らかの形で変更を受けています。"
   },
   "Contact": {
-    "title": "お問い合わせ",
-    "subtitle": "データ戦略を変革する準備はできていますか？"
+    "title": "ヘルプが必要ですか？チケットを開く",
+    "subtitle": "サポートチームがメールでできるだけ早く返信いたします。",
+    "newsletter": {
+      "title": "今後のアップデートを受信するために購読する",
+      "subtitle": "Lorem ipsum dolor sited Sed ullam corper consectur adipiscing Mae ornare massa quis lectus.",
+      "placeholder": "メールアドレスを入力",
+      "button": "購読"
+    }
+  },
+  "Footer": {
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lobortis molestie odio, a imperdiet enim imperdiet sit.",
+    "company": "会社",
+    "support": "サポート",
+    "links": {
+      "about": "私たちについて",
+      "contact": "お問い合わせ",
+      "careers": "キャリア",
+      "blog": "ブログ",
+      "help": "ヘルプセンター",
+      "privacy": "プライバシーポリシー",
+      "terms": "利用規約"
+    }
+  },
+  "Blog": {
+    "title": "最新のブログ",
+    "subtitle": "Lorem Ipumの多くのバリエーションが利用可能ですが、大部分は何らかの形で変更を受けています。",
+    "readMore": "続きを読む",
+    "author": "著者",
+    "date": "日付"
+  },
+  "Brands": {
+    "title": "グローバルブランドに信頼されています"
   },
   "Common": {
     "learnMore": "詳しく見る",
     "getStarted": "始める",
-    "readMore": "続きを読む"
+    "readMore": "続きを読む",
+    "viewAll": "すべて見る",
+    "close": "閉じる",
+    "menu": "メニュー"
   }
 }
