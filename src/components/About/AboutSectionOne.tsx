@@ -1,4 +1,6 @@
+'use client';
 import Image from "next/image";
+import { useTranslations } from 'next-intl';
 import SectionTitle from "../Common/SectionTitle";
 
 const checkIcon = (
@@ -8,6 +10,7 @@ const checkIcon = (
 );
 
 const AboutSectionOne = () => {
+  const t = useTranslations('About.sectionOne');
   const List = ({ text }) => (
     <p className="mb-5 flex items-center text-lg font-medium text-body-color">
       <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
@@ -24,8 +27,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="The Evolution of LLM training"
-                paragraph="Post-training optimization and high-quality synthetic data are revolutionizing AI model development, as evidenced by the transition from InstructGPT to Llama 3.1/Nemotron approaches."
+                title={t('title')}
+                paragraph={t('description')}
                 mb="44px"
               />
 
@@ -35,15 +38,15 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="100x increase in training data (10k to 1M+)" />
-                    <List text="Synthetic + human instructions for diversity" />
-                    <List text="Multi-round optimization (N iterations)" />
+                    <List text={t('features.0')} />
+                    <List text={t('features.1')} />
+                    <List text={t('features.2')} />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Advanced techniques: DPO, PPO, Rejection Sampling" />
-                    <List text="LLM as preference judge" />
-                    <List text="Continuous synthetic data generation" />
+                    <List text={t('features.3')} />
+                    <List text={t('features.4')} />
+                    <List text={t('features.5')} />
                   </div>
                 </div>
               </div>
