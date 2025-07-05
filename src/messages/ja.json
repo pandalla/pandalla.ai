@@ -1,0 +1,137 @@
+{
+  "Navigation": {
+    "home": "ホーム",
+    "about": "私たちについて",
+    "features": "機能",
+    "blog": "ブログ",
+    "contact": "お問い合わせ",
+    "omniai": "オムニAI"
+  },
+  "Hero": {
+    "title": "より良いデータがあなたに必要なすべて",
+    "subtitle": "実際のデータ品質を上回る、優れたテキスト、画像、動画データを生成します。高度なデータ合成とデータ拡張技術により、データ量と収集の制限から解放されます。",
+    "contactBtn": "お問い合わせ",
+    "omniaiBtn": "オムニAI"
+  },
+  "About": {
+    "title": "最先端の合成データソリューション",
+    "subtitle": "高品質な合成データでAIに革命を",
+    "sectionOne": {
+      "title": "LLMトレーニングの進化",
+      "description": "ポストトレーニング最適化と高品質合成データがAIモデル開発を革命的に変えており、InstructGPTからLlama 3.1/Nemotronアプローチへの移行がその証拠です。",
+      "features": [
+        "トレーニングデータの100倍増加（1万から100万+）",
+        "多様性のための合成+人間の指示",
+        "多ラウンド最適化（N回反復）",
+        "高度な技術：DPO、PPO、拒否サンプリング",
+        "LLMを嗜好判定器として使用",
+        "継続的な合成データ生成"
+      ]
+    },
+    "sectionTwo": {
+      "title": "高品質デザインと高性能コードの融合",
+      "subtitle": "スタートアップには信頼できるソリューションが必要",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus."
+    },
+    "sectionThree": {
+      "title": "プロジェクトの効率性と節約を向上させます。",
+      "subtitle": "なぜPandalla.AI？",
+      "description": "Pandalla.aiは、プロジェクトの効率性、時間管理、コスト削減において顕著な改善を実現するお手伝いをします。",
+      "metrics": [
+        { "value": "84%", "description": "効率性向上" },
+        { "value": "1300+", "description": "プロジェクト当たり節約時間" },
+        { "value": "$52K", "description": "平均コスト削減" },
+        { "value": "1.4B+", "description": "生成された総データレコード数" }
+      ]
+    }
+  },
+  "Features": {
+    "title": "主な機能",
+    "subtitle": "Lorem Ipumの多くのバリエーションが利用可能ですが、大部分は何らかの形で変更を受けています。",
+    "items": [
+      {
+        "title": "マルチモーダル生成AIデータソリューション",
+        "description": "テキスト、画像、動画、音声モーダリティを横断する包括的な合成データで、多様なアプリケーションのAIモデルトレーニングを強化します。"
+      },
+      {
+        "title": "高品質精密動画アノテーション",
+        "description": "カメラの動きと物語シーケンスアノテーションを持つ動的動画データで、次世代動画生成モデルに最適です。"
+      },
+      {
+        "title": "高度な推論データ",
+        "description": "大規模言語モデルの論理的推論、推論、創造的能力を向上させるための高品質データセット。"
+      },
+      {
+        "title": "統一AIモデルアクセス",
+        "description": "独立开発者と企業の両方に対して、OpenAI、Claude、Gemini、当社の独自モデルを含む主要AIモデルへの簡素化されたAPIアクセス。"
+      },
+      {
+        "title": "業界特化データセット",
+        "description": "AI企業、リーガルテック、メディカルテック、クリエイティブ業界、独立开発者向けの特化データコレクション。"
+      },
+      {
+        "title": "研究主導のイノベーション",
+        "description": "北京大学出身の専門チームによる最先端のデータ合成技術で、AI能力の境界を押し広げます。"
+      }
+    ]
+  },
+  "Contact": {
+    "title": "ヘルプが必要ですか？メッセージを送信",
+    "subtitle": "サポートチームがメールでできるだけ早く返信いたします。",
+    "form": {
+      "nameLabel": "お名前",
+      "namePlaceholder": "お名前を入力してください",
+      "emailLabel": "メールアドレス*",
+      "emailPlaceholder": "メールアドレスを入力してください",
+      "companyLabel": "会社/組織名*",
+      "companyPlaceholder": "会社または組織名を入力してください",
+      "jobLabel": "お仕事の種類",
+      "jobPlaceholder": "職種を入力してください",
+      "messageLabel": "メッセージ*",
+      "messagePlaceholder": "メッセージを入力してください",
+      "submitButton": "メッセージを送信",
+      "sending": "送信中...",
+      "required": "メール、会社、メッセージは必須項目です。",
+      "error": "メールの送信に失敗しました。しばらくしてから再度お試しください。",
+      "networkError": "エラーが発生しました。しばらくしてから再度お試しください。"
+    },
+    "newsletter": {
+      "title": "今後のアップデートを受信するために購読する",
+      "subtitle": "Lorem ipsum dolor sited Sed ullam corper consectur adipiscing Mae ornare massa quis lectus.",
+      "placeholder": "メールアドレスを入力",
+      "button": "購読"
+    }
+  },
+  "Footer": {
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lobortis molestie odio, a imperdiet enim imperdiet sit.",
+    "company": "会社",
+    "support": "サポート",
+    "links": {
+      "about": "私たちについて",
+      "contact": "お問い合わせ",
+      "careers": "キャリア",
+      "blog": "ブログ",
+      "help": "ヘルプセンター",
+      "privacy": "プライバシーポリシー",
+      "terms": "利用規約"
+    }
+  },
+  "Blog": {
+    "title": "最新のブログ",
+    "subtitle": "Lorem Ipumの多くのバリエーションが利用可能ですが、大部分は何らかの形で変更を受けています。",
+    "readMore": "続きを読む",
+    "author": "著者",
+    "date": "日付"
+  },
+  "Brands": {
+    "title": "グローバルブランドに信頼されています"
+  },
+  "Common": {
+    "learnMore": "詳しく見る",
+    "getStarted": "始める",
+    "readMore": "続きを読む",
+    "viewAll": "すべて見る",
+    "close": "閉じる",
+    "menu": "メニュー"
+  }
+}

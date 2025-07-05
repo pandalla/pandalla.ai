@@ -1,0 +1,137 @@
+{
+  "Navigation": {
+    "home": "首页",
+    "about": "关于我们",
+    "features": "功能特性",
+    "blog": "博客",
+    "contact": "联系我们",
+    "omniai": "全能AI"
+  },
+  "Hero": {
+    "title": "更好的数据就是您所需要的一切",
+    "subtitle": "我们生成卓越的文本、图像和视频数据，超越真实数据质量。采用先进的数据合成和数据增强技术，让您摆脱数据数量和收集限制。",
+    "contactBtn": "联系我们",
+    "omniaiBtn": "全能AI"
+  },
+  "About": {
+    "title": "领先的合成数据解决方案",
+    "subtitle": "用高质量合成数据革新AI",
+    "sectionOne": {
+      "title": "大语言模型训练的演进",
+      "description": "后训练优化和高质量合成数据正在革命性地改变AI模型开发，从InstructGPT到Llama 3.1/Nemotron方法的转变就是明证。",
+      "features": [
+        "训练数据量增长100倍（从1万到100万+）",
+        "合成+人工指令提供多样性",
+        "多轮优化（N次迭代）",
+        "先进技术：DPO、PPO、拒绝采样",
+        "LLM作为偏好判断器",
+        "持续合成数据生成"
+      ]
+    },
+    "sectionTwo": {
+      "title": "高质量设计遇见高性能代码",
+      "subtitle": "初创企业需要可靠的解决方案",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus."
+    },
+    "sectionThree": {
+      "title": "提升您项目的效率和节约。",
+      "subtitle": "为什么选择Pandalla.AI？",
+      "description": "Pandalla.ai帮助您在项目效率、时间管理和成本节约方面实现显著改善。",
+      "metrics": [
+        { "value": "84%", "description": "效率提升" },
+        { "value": "1300+", "description": "每个项目节约小时" },
+        { "value": "$52K", "description": "平均成本节约" },
+        { "value": "1.4B+", "description": "生成的总数据记录" }
+      ]
+    }
+  },
+  "Features": {
+    "title": "主要功能",
+    "subtitle": "有许多Lorem Ipsum的变体可用，但大多数都受到了某种形式的改变。",
+    "items": [
+      {
+        "title": "多模态生成AI数据解决方案",
+        "description": "跨文本、图像、视频和音频模态的综合合成数据，增强多样化应用的AI模型训练。"
+      },
+      {
+        "title": "高质量精细视频标注",
+        "description": "具有摄像机运动和叙事序列标注的动态视频数据，适用于下一代视频生成模型。"
+      },
+      {
+        "title": "高级推理数据",
+        "description": "用于提升大语言模型逻辑推理、推断和创造能力的高质量数据集。"
+      },
+      {
+        "title": "统一AI模型访问",
+        "description": "为独立开发者和企业提供简化的API访问，包括OpenAI、Claude、Gemini和我们的专有模型。"
+      },
+      {
+        "title": "行业定制数据集",
+        "description": "为AI公司、法律科技、医疗科技、创意产业和独立开发者提供专业数据集合。"
+      },
+      {
+        "title": "研究驱动的创新",
+        "description": "由我们来自北京大学的专家团队开发的前沿数据合成技术，推动AI能力的边界。"
+      }
+    ]
+  },
+  "Contact": {
+    "title": "需要帮助？给我们发消息",
+    "subtitle": "我们的支持团队将通过电子邮件尽快回复您。",
+    "form": {
+      "nameLabel": "您的姓名",
+      "namePlaceholder": "请输入您的姓名",
+      "emailLabel": "您的邮箱*",
+      "emailPlaceholder": "请输入您的邮箱",
+      "companyLabel": "公司/组织名称*",
+      "companyPlaceholder": "请输入您的公司或组织名称",
+      "jobLabel": "您的职位",
+      "jobPlaceholder": "请输入您的职位",
+      "messageLabel": "您的留言*",
+      "messagePlaceholder": "请输入您的留言",
+      "submitButton": "发送消息",
+      "sending": "发送中...",
+      "required": "邮箱、公司和留言为必填项。",
+      "error": "发送邮件失败，请稍后重试。",
+      "networkError": "发生错误，请稍后重试。"
+    },
+    "newsletter": {
+      "title": "订阅以接收未来更新",
+      "subtitle": "Lorem ipsum dolor sited Sed ullam corper consectur adipiscing Mae ornare massa quis lectus.",
+      "placeholder": "输入您的邮箱",
+      "button": "订阅"
+    }
+  },
+  "Footer": {
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lobortis molestie odio, a imperdiet enim imperdiet sit.",
+    "company": "公司",
+    "support": "支持",
+    "links": {
+      "about": "关于我们",
+      "contact": "联系我们",
+      "careers": "招聘",
+      "blog": "博客",
+      "help": "帮助中心",
+      "privacy": "隐私政策",
+      "terms": "服务条款"
+    }
+  },
+  "Blog": {
+    "title": "我们的最新博客",
+    "subtitle": "有许多Lorem Ipsum的变体可用，但大多数都受到了某种形式的改变。",
+    "readMore": "阅读更多",
+    "author": "作者",
+    "date": "日期"
+  },
+  "Brands": {
+    "title": "受到全球品牌信赖"
+  },
+  "Common": {
+    "learnMore": "了解更多",
+    "getStarted": "开始使用",
+    "readMore": "阅读更多",
+    "viewAll": "查看全部",
+    "close": "关闭",
+    "menu": "菜单"
+  }
+}

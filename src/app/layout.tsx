@@ -1,12 +1,8 @@
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
-import ScrollToTop from "@/components/ScrollToTop";
+import { Metadata } from 'next'
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
 import "../styles/ursine-theme.css";
-
-import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: "Pandalla.ai | Leading Synthetic Data and AI Solutions",
@@ -46,21 +42,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html suppressHydrationWarning lang="en">
+    <html suppressHydrationWarning>
       <head>
         <link rel="icon" href="/images/logo/pandalla-image.png_16x16.ico" sizes="any" />
       </head>
       <body className="bg-[#FCFCFC] dark:bg-black">
-        <Providers>
-          <Header />
-          {children}
-          <Footer />
-          <ScrollToTop />
-        </Providers>
+        {children}
         <SpeedInsights />
       </body>
     </html>
   );
 }
-
-import { Providers } from "./providers";

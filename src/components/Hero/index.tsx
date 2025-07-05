@@ -1,6 +1,11 @@
+'use client';
 import Link from "next/link";
+import { useTranslations, useLocale } from 'next-intl';
+import { motion } from 'framer-motion';
 
 const Hero = () => {
+  const t = useTranslations('Hero');
+  const locale = useLocale();
   return (
     <>
       <section
@@ -11,20 +16,51 @@ const Hero = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
-                <h1 className="mb-5 text-4xl font-extrabold leading-tight text-black dark:text-white sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight">
-                  Better data is all you need
-                </h1>
-                <p className="mb-12 text-base !leading-relaxed text-gray-600 dark:text-gray-300 sm:text-lg md:text-xl">
-                  We generate superior text, image, and video data, surpassing real data quality. Using advanced Data Synthesis and Data Augmentation, free you from data quantity and collection limitations.
-                </p>
-                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-                  <Link
-                    href="https://pandalla.ai/contact"
-                    className="rounded-full bg-primary px-10 py-4 text-lg font-bold text-white transition duration-300 ease-in-out hover:bg-primary/80 hover:shadow-lg"
+                <motion.h1 
+                  className="mb-5 text-4xl font-extrabold leading-tight text-black dark:text-white sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight"
+                  initial={{ opacity: 0, y: 30 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.8, ease: "easeOut" }}
+                >
+                  {t('title')}
+                </motion.h1>
+                <motion.p 
+                  className="mb-12 text-base !leading-relaxed text-gray-600 dark:text-gray-300 sm:text-lg md:text-xl"
+                  initial={{ opacity: 0, y: 30 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
+                >
+                  {t('subtitle')}
+                </motion.p>
+                <motion.div 
+                  className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0"
+                  initial={{ opacity: 0, y: 30 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
+                >
+                  <motion.div
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
                   >
-                    CONTACT
-                  </Link>
-                </div>
+                    <Link
+                      href={`/${locale}/contact`}
+                      className="rounded-full bg-primary px-10 py-4 text-lg font-bold text-white transition duration-300 ease-in-out hover:bg-primary/80 hover:shadow-lg"
+                    >
+                      {t('contactBtn')}
+                    </Link>
+                  </motion.div>
+                  <motion.div
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                  >
+                    <Link
+                      href={`/${locale}/omniai`}
+                      className="rounded-full border-2 border-primary bg-transparent px-10 py-4 text-lg font-bold text-primary transition duration-300 ease-in-out hover:bg-primary hover:text-white"
+                    >
+                      {t('omniaiBtn')}
+                    </Link>
+                  </motion.div>
+                </motion.div>
               </div>
             </div>
           </div>

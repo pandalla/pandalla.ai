@@ -1,0 +1,137 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "about": "About",
+    "features": "Features", 
+    "blog": "Blog",
+    "contact": "Contact",
+    "omniai": "OmniAI"
+  },
+  "Hero": {
+    "title": "Better data is all you need",
+    "subtitle": "We generate superior text, image, and video data, surpassing real data quality. Using advanced Data Synthesis and Data Augmentation, free you from data quantity and collection limitations.",
+    "contactBtn": "CONTACT",
+    "omniaiBtn": "OMNIAI"
+  },
+  "About": {
+    "title": "Leading Synthetic Data Solutions",
+    "subtitle": "Revolutionizing AI with High-Quality Synthetic Data",
+    "sectionOne": {
+      "title": "The Evolution of LLM training",
+      "description": "Post-training optimization and high-quality synthetic data are revolutionizing AI model development, as evidenced by the transition from InstructGPT to Llama 3.1/Nemotron approaches.",
+      "features": [
+        "100x increase in training data (10k to 1M+)",
+        "Synthetic + human instructions for diversity",
+        "Multi-round optimization (N iterations)",
+        "Advanced techniques: DPO, PPO, Rejection Sampling",
+        "LLM as preference judge",
+        "Continuous synthetic data generation"
+      ]
+    },
+    "sectionTwo": {
+      "title": "High-Quality Design Meets High-Performance Code",
+      "subtitle": "Startups need a reliable solution",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus."
+    },
+    "sectionThree": {
+      "title": "We boost your project's efficiency and savings.",
+      "subtitle": "Why Pandalla.AI?",
+      "description": "Pandalla.ai helps you achieve remarkable improvements in project efficiency, time management, and cost savings.",
+      "metrics": [
+        { "value": "84%", "description": "Efficiency Increase" },
+        { "value": "1300+", "description": "Hours Saved Per Project" },
+        { "value": "$52K", "description": "Average Cost Savings" },
+        { "value": "1.4B+", "description": "Total Data Records Generated" }
+      ]
+    }
+  },
+  "Features": {
+    "title": "Main Features",
+    "subtitle": "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.",
+    "items": [
+      {
+        "title": "Multi-Modal Gen AI Data Solutions",
+        "description": "Comprehensive synthetic data across text, image, video, and audio modalities, enhancing AI model training for diverse applications."
+      },
+      {
+        "title": "High-quality Sophisticated Video Annotation",
+        "description": "Dynamic video data with camera movement and narrative sequencing annotations, ideal for next-gen video generation models."
+      },
+      {
+        "title": "Advanced Reasoning Data",
+        "description": "High-quality datasets for improving logical reasoning, inference, and creative capabilities of large language models."
+      },
+      {
+        "title": "Unified AI Model Access",
+        "description": "Streamlined API access for both independent developers and enterprises to leading AI models including OpenAI, Claude, Gemini, our proprietary models."
+      },
+      {
+        "title": "Industry-Tailored Datasets",
+        "description": "Specialized data collections for AI companies, legal tech, medical tech, creative industries, and independent developers."
+      },
+      {
+        "title": "Research-Driven Innovation",
+        "description": "Cutting-edge data synthesis techniques developed by our expert team from Peking University, pushing the boundaries of AI capabilities."
+      }
+    ]
+  },
+  "Contact": {
+    "title": "Need Help? Send Us a Message",
+    "subtitle": "Our support team will get back to you by email as soon as possible.",
+    "form": {
+      "nameLabel": "Your Name",
+      "namePlaceholder": "Enter your name",
+      "emailLabel": "Your Email*",
+      "emailPlaceholder": "Enter your email",
+      "companyLabel": "Company/Organization Name*",
+      "companyPlaceholder": "Enter your company or organization name",
+      "jobLabel": "Your Job Title",
+      "jobPlaceholder": "Enter your job title",
+      "messageLabel": "Your Message*",
+      "messagePlaceholder": "Enter your message",
+      "submitButton": "Send Message",
+      "sending": "Sending...",
+      "required": "Email, company, and message are required fields.",
+      "error": "Failed to send email. Please try again later.",
+      "networkError": "An error occurred. Please try again later."
+    },
+    "newsletter": {
+      "title": "Subscribe to receive future updates",
+      "subtitle": "Lorem ipsum dolor sited Sed ullam corper consectur adipiscing Mae ornare massa quis lectus.",
+      "placeholder": "Enter your email",
+      "button": "Subscribe"
+    }
+  },
+  "Footer": {
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lobortis molestie odio, a imperdiet enim imperdiet sit.",
+    "company": "Company",
+    "support": "Support",
+    "links": {
+      "about": "About",
+      "contact": "Contact",
+      "careers": "Careers",
+      "blog": "Blog",
+      "help": "Help Center",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    }
+  },
+  "Blog": {
+    "title": "Our Latest Blogs",
+    "subtitle": "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.",
+    "readMore": "Read More",
+    "author": "By",
+    "date": "Date"
+  },
+  "Brands": {
+    "title": "Trusted by Global Brands"
+  },
+  "Common": {
+    "learnMore": "Learn More",
+    "getStarted": "Get Started", 
+    "readMore": "Read More",
+    "viewAll": "View All",
+    "close": "Close",
+    "menu": "Menu"
+  }
+}
