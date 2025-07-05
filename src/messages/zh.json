@@ -1,0 +1,33 @@
+{
+  "Navigation": {
+    "home": "首页",
+    "about": "关于我们",
+    "features": "功能特性",
+    "blog": "博客",
+    "contact": "联系我们",
+    "omniai": "全能AI"
+  },
+  "Hero": {
+    "title": "更好的数据就是您所需要的一切",
+    "subtitle": "我们生成卓越的文本、图像和视频数据，超越真实数据质量。采用先进的数据合成和数据增强技术，让您摆脱数据数量和收集限制。",
+    "contactBtn": "联系我们",
+    "omniaiBtn": "全能AI"
+  },
+  "About": {
+    "title": "领先的合成数据解决方案",
+    "subtitle": "用高质量合成数据革新AI"
+  },
+  "Features": {
+    "title": "核心功能",
+    "subtitle": "合成数据生成所需的一切"
+  },
+  "Contact": {
+    "title": "联系我们",
+    "subtitle": "准备好改变您的数据策略了吗？"
+  },
+  "Common": {
+    "learnMore": "了解更多",
+    "getStarted": "开始使用",
+    "readMore": "阅读更多"
+  }
+}

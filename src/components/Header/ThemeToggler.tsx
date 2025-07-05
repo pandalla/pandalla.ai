@@ -1,11 +1,16 @@
+'use client';
 import { useTheme } from "next-themes";
+import { motion } from "framer-motion";
 
 const ThemeToggler = () => {
   const { theme, setTheme } = useTheme();
   return (
-    <button aria-label='theme toggler'
+    <motion.button 
+      aria-label='theme toggler'
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-      className="flex items-center justify-center text-black rounded-full cursor-pointer bg-gray-2 dark:bg-dark-bg h-9 w-9 dark:text-white md:h-14 md:w-14"
+      className="flex items-center justify-center text-black rounded-full cursor-pointer bg-gray-2 dark:bg-dark-bg h-9 w-9 dark:text-white md:h-14 md:w-14 transition-colors duration-200"
+      whileHover={{ scale: 1.1 }}
+      whileTap={{ scale: 0.9 }}
     >
       <svg
         viewBox="0 0 23 23"
@@ -36,7 +41,7 @@ const ThemeToggler = () => {
           mask="url(#path-1-inside-1_977:1934)"
         />
       </svg>
-    </button>
+    </motion.button>
   );
 };
 

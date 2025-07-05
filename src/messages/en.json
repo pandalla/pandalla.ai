@@ -1,0 +1,33 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "about": "About",
+    "features": "Features",
+    "blog": "Blog",
+    "contact": "Contact",
+    "omniai": "OmniAI"
+  },
+  "Hero": {
+    "title": "Better data is all you need",
+    "subtitle": "We generate superior text, image, and video data, surpassing real data quality. Using advanced Data Synthesis and Data Augmentation, free you from data quantity and collection limitations.",
+    "contactBtn": "CONTACT",
+    "omniaiBtn": "OMNIAI"
+  },
+  "About": {
+    "title": "Leading Synthetic Data Solutions",
+    "subtitle": "Revolutionizing AI with High-Quality Synthetic Data"
+  },
+  "Features": {
+    "title": "Core Features",
+    "subtitle": "Everything you need for synthetic data generation"
+  },
+  "Contact": {
+    "title": "Get in Touch",
+    "subtitle": "Ready to transform your data strategy?"
+  },
+  "Common": {
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "readMore": "Read More"
+  }
+}

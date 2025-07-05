@@ -1,0 +1,33 @@
+{
+  "Navigation": {
+    "home": "ホーム",
+    "about": "私たちについて",
+    "features": "機能",
+    "blog": "ブログ",
+    "contact": "お問い合わせ",
+    "omniai": "オムニAI"
+  },
+  "Hero": {
+    "title": "より良いデータがあなたに必要なすべて",
+    "subtitle": "実際のデータ品質を上回る、優れたテキスト、画像、動画データを生成します。高度なデータ合成とデータ拡張技術により、データ量と収集の制限から解放されます。",
+    "contactBtn": "お問い合わせ",
+    "omniaiBtn": "オムニAI"
+  },
+  "About": {
+    "title": "最先端の合成データソリューション",
+    "subtitle": "高品質な合成データでAIに革命を"
+  },
+  "Features": {
+    "title": "コア機能",
+    "subtitle": "合成データ生成に必要なすべて"
+  },
+  "Contact": {
+    "title": "お問い合わせ",
+    "subtitle": "データ戦略を変革する準備はできていますか？"
+  },
+  "Common": {
+    "learnMore": "詳しく見る",
+    "getStarted": "始める",
+    "readMore": "続きを読む"
+  }
+}
