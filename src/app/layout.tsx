@@ -1,12 +1,12 @@
+import { Metadata } from 'next'
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
-import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Providers } from "./providers";
 import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
 import "../styles/ursine-theme.css";
-
-import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: "Pandalla.ai | Leading Synthetic Data and AI Solutions",
@@ -62,5 +62,3 @@ export default function RootLayout({
     </html>
   );
 }
-
-import { Providers } from "./providers";

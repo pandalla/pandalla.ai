@@ -19,10 +19,16 @@ const Hero = () => {
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
-                    href="https://pandalla.ai/contact"
+                    href="/contact"
                     className="rounded-full bg-primary px-10 py-4 text-lg font-bold text-white transition duration-300 ease-in-out hover:bg-primary/80 hover:shadow-lg"
                   >
                     CONTACT
+                  </Link>
+                  <Link
+                    href="/omniai"
+                    className="rounded-full border-2 border-primary bg-transparent px-10 py-4 text-lg font-bold text-primary transition duration-300 ease-in-out hover:bg-primary hover:text-white"
+                  >
+                    OMNIAI
                   </Link>
                 </div>
               </div>
