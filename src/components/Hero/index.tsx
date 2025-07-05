@@ -1,10 +1,11 @@
 'use client';
 import Link from "next/link";
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { motion } from 'framer-motion';
 
 const Hero = () => {
   const t = useTranslations('Hero');
+  const locale = useLocale();
   return (
     <>
       <section
@@ -42,7 +43,7 @@ const Hero = () => {
                     whileTap={{ scale: 0.95 }}
                   >
                     <Link
-                      href="/contact"
+                      href={`/${locale}/contact`}
                       className="rounded-full bg-primary px-10 py-4 text-lg font-bold text-white transition duration-300 ease-in-out hover:bg-primary/80 hover:shadow-lg"
                     >
                       {t('contactBtn')}
@@ -53,7 +54,7 @@ const Hero = () => {
                     whileTap={{ scale: 0.95 }}
                   >
                     <Link
-                      href="/omniai"
+                      href={`/${locale}/omniai`}
                       className="rounded-full border-2 border-primary bg-transparent px-10 py-4 text-lg font-bold text-primary transition duration-300 ease-in-out hover:bg-primary hover:text-white"
                     >
                       {t('omniaiBtn')}

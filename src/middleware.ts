@@ -4,7 +4,7 @@ import { locales } from './i18n/request';
 export default createMiddleware({
   locales,
   defaultLocale: 'en',
-  localePrefix: 'as-needed'
+  localePrefix: 'always'
 });
 
 export const config = {
@@ -18,6 +18,6 @@ export const config = {
     
     // Enable redirects that add missing locales
     // (e.g. `/pathnames` -> `/en/pathnames`)
-    '/((?!_next|_vercel|.*\\..*).*)' 
+    '/((?!api|_next|_vercel|.*\\..*).*)' 
   ]
 };

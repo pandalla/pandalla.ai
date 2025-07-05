@@ -25,7 +25,7 @@ export default function LanguageSwitcher() {
     const pathWithoutLocale = pathname.replace(/^\/[a-z]{2}/, '') || '/';
     
     // Build new path with selected locale
-    const newPathname = `/${langCode}${pathWithoutLocale}`;
+    const newPathname = `/${langCode}${pathWithoutLocale === '/' ? '' : pathWithoutLocale}`;
     
     router.push(newPathname);
     setIsOpen(false);
