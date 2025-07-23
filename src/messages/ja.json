@@ -6,7 +6,8 @@
     "blog": "ブログ",
     "contact": "お問い合わせ",
     "omniai": "オムニAI",
-    "video_gallery": "ビデオギャラリー"
+    "video_gallery": "ビデオギャラリー",
+    "text_gallery": "テキストギャラリー"
   },
   "Hero": {
     "title": "より良いデータがあなたに必要なすべて",

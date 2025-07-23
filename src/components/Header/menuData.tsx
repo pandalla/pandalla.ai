@@ -98,5 +98,11 @@ const menuData: Menu[] = [
     path: "/video-gallery",
     newTab: false,
   },
+  {
+    id: 8,
+    title: "text_gallery",
+    path: "/text-gallery",
+    newTab: false,
+  },
 ];
 export default menuData;

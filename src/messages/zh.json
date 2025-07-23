@@ -6,7 +6,8 @@
     "blog": "博客",
     "contact": "联系我们",
     "omniai": "全能AI",
-    "video_gallery": "视频展示"
+    "video_gallery": "视频展示",
+    "text_gallery": "文本展示"
   },
   "Hero": {
     "title": "更好的数据就是您所需要的一切",

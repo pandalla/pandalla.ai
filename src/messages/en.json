@@ -6,7 +6,8 @@
     "blog": "Blog",
     "contact": "Contact",
     "omniai": "OmniAI",
-    "video_gallery": "Video Gallery"
+    "video_gallery": "Video Gallery",
+    "text_gallery": "Text Gallery"
   },
   "Hero": {
     "title": "Better data is all you need",
