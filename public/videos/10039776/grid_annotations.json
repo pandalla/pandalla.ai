@@ -1,0 +1,48 @@
+{
+  "0a086025-78af-43ee-a407-1221b1939426": {
+    "annotation": {
+      "description": {
+        "content": "As the clip opens, a vibrant red fish head fills the frame on a white surface. From left to right, top to bottom, each successive frame remains identical, holding the viewer’s gaze on the glistening eye and textured scales. In the final seconds, the static shot continues to emphasize the fish’s freshness and vivid color.",
+        "visual_characteristics": "Tight, symmetrical composition with saturated reds and reflective highlights conveys a fresh, tactile quality and an almost clinical focus on detail.",
+        "suitable_content_types": "Ideal for a food documentary or cooking show segment showcasing seafood freshness due to its detailed close-up and steady presentation."
+      },
+      "scene": "fish market",
+      "actions": [],
+      "objects": [
+        "fish",
+        "head",
+        "eye",
+        "scale",
+        "ice"
+      ],
+      "characters": "no people",
+      "continent_groups": [],
+      "camera_technique": [
+        "close-up",
+        "static"
+      ],
+      "cultural_elements": {
+        "temporal_context": "None",
+        "festival_event": "None",
+        "religion_symbol": "None",
+        "architecture_style": "None",
+        "language_script": "None",
+        "other_cultural": "None"
+      },
+      "time_weather": {
+        "time_of_day": "indoor",
+        "weather": "None"
+      },
+      "color_tone": "saturated",
+      "visual_style": "documentary",
+      "other_tags": [
+        "seafood",
+        "macro",
+        "still life"
+      ]
+    },
+    "image_file": "0a086025-78af-43ee-a407-1221b1939426_grid_4xN.jpg",
+    "timestamp": "2025-07-23T20:51:51.895438",
+    "folder": "10039776"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "duration": 15.02,
+  "size": 4.26,
+  "bps": 2.38,
+  "codec": "H.264",
+  "type": "video/mp4",
+  "width": 1280,
+  "height": 720,
+  "aspect_ratio": "16:9",
+  "motion_status": 1.59,
+  "slow_motion_status": true,
+  "filename": "5b8a034f-b77c-4071-9820-91b8cac29054",
+  "video_key": "one2x-pandalla-1304425019/video_data/5b8a034f-b77c-4071-9820-91b8cac29054/5b8a034f-b77c-4071-9820-91b8cac29054.mp4",
+  "thumb_key": "one2x-pandalla-1304425019/video_data/5b8a034f-b77c-4071-9820-91b8cac29054/5b8a034f-b77c-4071-9820-91b8cac29054_thumb.jpg",
+  "pexels_url": "https://www.pexels.com/video/a-person-putting-cucumbers-in-a-plastic-bag-10039847/",
+  "content": "The video frames depict a scene of someone selecting fresh produce, specifically cucumbers and oranges, likely in a market or grocery setting. The focus is on the individual's hands as they bag the cucumbers, suggesting themes of everyday life and the simplicity of routine tasks. The dark, warm tones emphasize a natural and candid moment.",
+  "style": "The imagery has a warm tone with a focus on natural, earthy colors, suggesting a documentary or lifestyle style. The emotions conveyed include calmness and simplicity, highlighting daily routines. The close-up composition directs attention to the tactile interaction with the produce.",
+  "suitable_content_types": "This video imagery is suitable for content related to daily life, food shopping, lifestyle documentaries, or health and nutrition programs. It is ideal for illustrating themes of fresh food selection or market scenes.",
+  "category": {
+    "level_1": "society_and_life",
+    "level_2": "family_and_daily_life"
+  },
+  "tags": [
+    "fresh_produce",
+    "daily_life",
+    "market_scene",
+    "healthy_living",
+    "natural_colors"
+  ],
+  "temporal_context": "universal",
+  "geographical_relevance": "universal",
+  "other_cultural_features": "universal",
+  "face_detection": "no_faces_detected",
+  "usage": {
+    "completion_tokens": 274,
+    "prompt_tokens": 3426,
+    "total_tokens": 3700,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {}
+  }
+}

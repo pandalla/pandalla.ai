@@ -1,0 +1,45 @@
+{
+  "duration": 8.48,
+  "size": 2.53,
+  "bps": 2.5,
+  "codec": "H.264",
+  "type": "video/mp4",
+  "width": 1280,
+  "height": 720,
+  "aspect_ratio": "16:9",
+  "motion_status": 2.02,
+  "slow_motion_status": true,
+  "filename": "17cb79b4-71ce-4edc-be77-1a81ef66f3c1",
+  "video_key": "one2x-pandalla-1304425019/video_data/17cb79b4-71ce-4edc-be77-1a81ef66f3c1/17cb79b4-71ce-4edc-be77-1a81ef66f3c1.mp4",
+  "thumb_key": "one2x-pandalla-1304425019/video_data/17cb79b4-71ce-4edc-be77-1a81ef66f3c1/17cb79b4-71ce-4edc-be77-1a81ef66f3c1_thumb.jpg",
+  "pexels_url": "https://www.pexels.com/video/a-red-car-on-the-road-10012741/",
+  "content": "The sequence of video frames presents an aerial view of a lone red car traveling through a winding, desolate road. The progression from frame to frame captures the car's movement along the road, emphasizing isolation and the surrounding natural landscape. The imagery suggests a journey or travel narrative, often associated with themes of solitude or exploration.",
+  "style": "The visual style is characterized by a muted color palette and a high contrast between the dark surroundings and the lighter road. The tone is moody and atmospheric, evoking a sense of mystery and introspection. The composition focuses on a bird's-eye perspective, which enhances the feeling of distance and detachment while highlighting the road's curves and stretches.",
+  "suitable_content_types": "These visuals are well-suited for use in travel documentaries, road trip narratives, or films exploring themes of solitude and journey. They can also be used in advertising for vehicles, especially those emphasizing adventure or exploration.",
+  "category": {
+    "level_1": "nature_and_environment",
+    "level_2": "natural_landscapes"
+  },
+  "tags": [
+    "aerial_view",
+    "solitude",
+    "road_trip",
+    "travel",
+    "journey"
+  ],
+  "temporal_context": "universal",
+  "geographical_relevance": "universal",
+  "other_cultural_features": "universal",
+  "face_detection": "no_faces_detected",
+  "usage": {
+    "completion_tokens": 292,
+    "prompt_tokens": 3426,
+    "total_tokens": 3718,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {}
+  }
+}

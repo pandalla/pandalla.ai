@@ -1,0 +1,45 @@
+{
+  "duration": 12.08,
+  "size": 10.8,
+  "bps": 7.5,
+  "codec": "H.264",
+  "type": "video/mp4",
+  "width": 1280,
+  "height": 720,
+  "aspect_ratio": "16:9",
+  "motion_status": 10.31,
+  "slow_motion_status": true,
+  "filename": "7287fc07-00ce-40d0-8704-3bd9aadc8a3c",
+  "video_key": "one2x-pandalla-1304425019/video_data/7287fc07-00ce-40d0-8704-3bd9aadc8a3c/7287fc07-00ce-40d0-8704-3bd9aadc8a3c.mp4",
+  "thumb_key": "one2x-pandalla-1304425019/video_data/7287fc07-00ce-40d0-8704-3bd9aadc8a3c/7287fc07-00ce-40d0-8704-3bd9aadc8a3c_thumb.jpg",
+  "pexels_url": "https://www.pexels.com/video/a-man-riding-an-atv-driving-on-a-muddy-terrain-10005907/",
+  "content": "The video frames depict an off-road vehicle navigating through a dense, lush forest landscape. The vehicle is visibly muddy, indicating a rugged and adventurous journey through challenging terrain. The presence of individuals near the vehicle suggests a group outdoor activity, possibly an off-roading excursion or a nature exploration. The environment is characterized by verdant foliage and a bright blue sky, enhancing the sense of adventure and connection with nature.",
+  "style": "The visual style is vibrant and natural, with bright colors and high contrast. The imagery conveys a sense of adventure and ruggedness through the muddy off-road vehicle juxtaposed against the lush greenery. The composition of the frames—involving the vehicle, nature, and people—suggests an energetic and exploratory mood.",
+  "suitable_content_types": "The visuals are suitable for outdoor adventure documentaries, travel vlogs focused on off-roading or forest explorations, automotive advertisements for rugged vehicles, and content aimed at nature enthusiasts or adventure seekers.",
+  "category": {
+    "level_1": "entertainment_and_leisure",
+    "level_2": "outdoor_activities"
+  },
+  "tags": [
+    "off_roading",
+    "adventure",
+    "nature",
+    "forest_exploration",
+    "outdoor_activities"
+  ],
+  "temporal_context": "universal",
+  "geographical_relevance": "universal",
+  "other_cultural_features": "universal",
+  "face_detection": "no_faces_detected",
+  "usage": {
+    "completion_tokens": 304,
+    "prompt_tokens": 3216,
+    "total_tokens": 3520,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {}
+  }
+}

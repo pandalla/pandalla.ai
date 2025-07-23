@@ -1,0 +1,54 @@
+{
+  "5b8a034f-b77c-4071-9820-91b8cac29054": {
+    "annotation": {
+      "description": {
+        "content": "As the clip opens, a vendor’s hands reach over a table piled high with cucumbers and tomatoes. Soon after, he selects individual cucumbers and places them one by one into a clear plastic bag. In the final frames, the bag fills with fresh cucumbers as the vendor tightens its opening and lifts it up.",
+        "visual_characteristics": "The series of close-up shots uses warm, low-key lighting and tight framing on hands and produce, conveying a tactile, intimate atmosphere. The muted background keeps focus on the vibrant green and orange colors of the vegetables.",
+        "suitable_content_types": "This sequence is best suited for food market vlogs, culinary documentaries, or cooking show segments that highlight fresh produce and vendor interactions."
+      },
+      "scene": "market stall",
+      "actions": [
+        "selecting cucumbers",
+        "filling plastic bag",
+        "handling produce"
+      ],
+      "objects": [
+        "cucumber",
+        "tomato",
+        "plastic bag",
+        "crate",
+        "stall"
+      ],
+      "characters": "1 vendor",
+      "continent_groups": [
+        "Western (assumed)"
+      ],
+      "camera_technique": [
+        "close-up",
+        "static"
+      ],
+      "cultural_elements": {
+        "temporal_context": "None",
+        "festival_event": "None",
+        "religion_symbol": "None",
+        "architecture_style": "None",
+        "language_script": "None",
+        "other_cultural": "None"
+      },
+      "time_weather": {
+        "time_of_day": "indoor",
+        "weather": "None"
+      },
+      "color_tone": "warm",
+      "visual_style": "documentary",
+      "other_tags": [
+        "food market",
+        "produce",
+        "vendor"
+      ]
+    },
+    "image_file": "5b8a034f-b77c-4071-9820-91b8cac29054_grid_4xN.jpg",
+    "timestamp": "2025-07-23T20:51:01.704564",
+    "folder": "10039847"
+  }
+}

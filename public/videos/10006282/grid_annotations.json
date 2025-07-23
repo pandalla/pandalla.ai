@@ -1,0 +1,48 @@
+{
+  "3d820a4d-0687-4b97-8dcd-6a873d29b5c4": {
+    "annotation": {
+      "description": {
+        "content": "As the clip opens, an adult monkey with an infant perched on its back stands in a lush green field. Soon after, the adult begins walking slowly across the grass while the baby shifts and clings tightly. In subsequent shots, they move steadily closer to the camera, revealing detailed fur textures under bright sunlight. In the final seconds, the pair walks out of frame, leaving the grass swaying gently.",
+        "visual_characteristics": "Bright natural lighting and vibrant green tones emphasize the detailed fur and intimate bond, framed with a stable, close composition that conveys calmness and curiosity.",
+        "suitable_content_types": "Ideal for wildlife documentaries or educational nature videos focusing on animal behavior and parental care."
+      },
+      "scene": "grassland",
+      "actions": [
+        "carrying baby",
+        "walking"
+      ],
+      "objects": [
+        "grass",
+        "leaf",
+        "field"
+      ],
+      "characters": "1 adult monkey and 1 baby monkey",
+      "continent_groups": [],
+      "camera_technique": [
+        "static"
+      ],
+      "cultural_elements": {
+        "temporal_context": "None",
+        "festival_event": "None",
+        "religion_symbol": "None",
+        "architecture_style": "None",
+        "language_script": "None",
+        "other_cultural": "None"
+      },
+      "time_weather": {
+        "time_of_day": "day",
+        "weather": "clear"
+      },
+      "color_tone": "warm",
+      "visual_style": "documentary",
+      "other_tags": [
+        "wildlife",
+        "nature",
+        "animal behavior"
+      ]
+    },
+    "image_file": "3d820a4d-0687-4b97-8dcd-6a873d29b5c4_grid_4xN.jpg",
+    "timestamp": "2025-07-23T20:53:58.642292",
+    "folder": "10006282"
+  }
+}

@@ -5,7 +5,8 @@
     "features": "Features", 
     "blog": "Blog",
     "contact": "Contact",
-    "omniai": "OmniAI"
+    "omniai": "OmniAI",
+    "video_gallery": "Video Gallery"
   },
   "Hero": {
     "title": "Better data is all you need",

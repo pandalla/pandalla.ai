@@ -1,0 +1,54 @@
+{
+  "6185b043-3353-4ad6-80ea-1a32ee891f8a": {
+    "annotation": {
+      "description": {
+        "content": "As the sequence opens, a young red-haired woman stands in an open field with sheer blue fabric draped around her. Soon after, she slowly turns and lifts the translucent cloth above her head, letting it billow in the breeze. In the next frames, she gazes directly at the camera, her curls glowing as the sun peeks through the flowing fabric. Finally, she extends her arm upward, the fabric swirling around her against a soft, cloudy sky.",
+        "visual_characteristics": "The soft pastel composition, backlit glow, and muted color palette create an ethereal, dreamy tone. The framing alternates close-ups and static medium shots that emphasize the flowing fabric and her serene expression.",
+        "suitable_content_types": "This sequence suits fashion commercials or artistic music videos due to its stylized visuals and evocative movement."
+      },
+      "scene": "open field",
+      "actions": [
+        "twirling sheer cloth",
+        "gazing at camera",
+        "lifting fabric overhead"
+      ],
+      "objects": [
+        "fabric",
+        "dress",
+        "sun",
+        "sky",
+        "hair"
+      ],
+      "characters": "1 young woman",
+      "continent_groups": [
+        "Western"
+      ],
+      "camera_technique": [
+        "close-up",
+        "static"
+      ],
+      "cultural_elements": {
+        "temporal_context": "None",
+        "festival_event": "None",
+        "religion_symbol": "None",
+        "architecture_style": "None",
+        "language_script": "None",
+        "other_cultural": "None"
+      },
+      "time_weather": {
+        "time_of_day": "day",
+        "weather": "cloudy"
+      },
+      "color_tone": "pastel",
+      "visual_style": "cinematic",
+      "other_tags": [
+        "backlit",
+        "dreamlike",
+        "ethereal"
+      ]
+    },
+    "image_file": "6185b043-3353-4ad6-80ea-1a32ee891f8a_grid_4xN.jpg",
+    "timestamp": "2025-07-23T20:50:56.327385",
+    "folder": "10034309"
+  }
+}

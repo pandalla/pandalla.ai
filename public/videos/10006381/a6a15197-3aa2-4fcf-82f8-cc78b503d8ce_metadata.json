@@ -1,0 +1,45 @@
+{
+  "duration": 10.56,
+  "size": 2.49,
+  "bps": 1.89,
+  "codec": "H.264",
+  "type": "video/mp4",
+  "width": 1080,
+  "height": 810,
+  "aspect_ratio": "4:3",
+  "motion_status": 2.1,
+  "slow_motion_status": false,
+  "filename": "a6a15197-3aa2-4fcf-82f8-cc78b503d8ce",
+  "video_key": "one2x-pandalla-1304425019/video_data/a6a15197-3aa2-4fcf-82f8-cc78b503d8ce/a6a15197-3aa2-4fcf-82f8-cc78b503d8ce.mp4",
+  "thumb_key": "one2x-pandalla-1304425019/video_data/a6a15197-3aa2-4fcf-82f8-cc78b503d8ce/a6a15197-3aa2-4fcf-82f8-cc78b503d8ce_thumb.jpg",
+  "pexels_url": "https://www.pexels.com/video/a-starling-bird-perched-on-a-wood-10006381/",
+  "content": "The video frames depict a European starling, a small, glossy bird known for its iridescent plumage and speckled appearance. The frames capture the bird perched on a wooden ledge, highlighting its intricate feather patterns and natural grace. The background is a soft blur of blues, creating a serene atmosphere that foregrounds the starling as the focal point.",
+  "style": "The visuals employ a naturalistic style, focusing on wildlife photography techniques. The tone is balanced with a mix of cool and neutral hues, lending the imagery a peaceful and contemplative feel. The composition is simple yet effective, centering the bird to emphasize its detailed plumage and stance. These frames convey a sense of tranquility and appreciation for natural beauty.",
+  "suitable_content_types": "These frames are ideal for use in wildlife documentaries, educational content about birds, nature series, and environmental awareness campaigns. They can also be effectively utilized in content aiming to promote the beauty of avian life or biodiversity.",
+  "category": {
+    "level_1": "nature_and_environment",
+    "level_2": "flora_fauna_and_ecology"
+  },
+  "tags": [
+    "wildlife_photography",
+    "birdwatching",
+    "nature",
+    "serenity",
+    "avian_life"
+  ],
+  "temporal_context": "universal",
+  "geographical_relevance": "The starling is a common bird across Europe, indicating relevance to European regions.",
+  "other_cultural_features": "universal",
+  "face_detection": "no_faces_detected",
+  "usage": {
+    "completion_tokens": 323,
+    "prompt_tokens": 3426,
+    "total_tokens": 3749,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {}
+  }
+}

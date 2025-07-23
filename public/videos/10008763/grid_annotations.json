@@ -1,0 +1,52 @@
+{
+  "b8d7081f-c457-4106-8433-c751a31b9201": {
+    "annotation": {
+      "description": {
+        "content": "As the sequence begins, a close-up view reveals a bustling line of black ants traversing a sandy, pebbled surface from left to right. In the middle panel, more ants stream into view, some carrying small debris as they forage and traverse uneven terrain. By the final panel, the ants are spread out across the granular soil, continuing their steady march and exploration across the forest floor.",
+        "visual_characteristics": "Macro, high-detail composition with earthy, muted browns and blacks that convey a sense of industrious movement and natural texture.",
+        "suitable_content_types": "Best suited for a nature documentary or educational macro footage highlighting insect behavior and entomology."
+      },
+      "scene": "forest floor",
+      "actions": [
+        "marching in line",
+        "foraging for food",
+        "exploring terrain"
+      ],
+      "objects": [
+        "ant",
+        "soil",
+        "pebble",
+        "leaf fragment",
+        "twig"
+      ],
+      "characters": "no people",
+      "continent_groups": [],
+      "camera_technique": [
+        "close-up",
+        "static"
+      ],
+      "cultural_elements": {
+        "temporal_context": "None",
+        "festival_event": "None",
+        "religion_symbol": "None",
+        "architecture_style": "None",
+        "language_script": "None",
+        "other_cultural": "None"
+      },
+      "time_weather": {
+        "time_of_day": "day",
+        "weather": "clear"
+      },
+      "color_tone": "warm",
+      "visual_style": "documentary",
+      "other_tags": [
+        "macro",
+        "insect",
+        "entomology"
+      ]
+    },
+    "image_file": "b8d7081f-c457-4106-8433-c751a31b9201_grid_4xN.jpg",
+    "timestamp": "2025-07-23T20:52:23.119662",
+    "folder": "10008763"
+  }
+}

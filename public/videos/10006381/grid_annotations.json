@@ -1,0 +1,53 @@
+{
+  "a6a15197-3aa2-4fcf-82f8-cc78b503d8ce": {
+    "annotation": {
+      "description": {
+        "content": "As the clip opens a starling stands on a weathered wooden railing beside a vivid blue pool. Soon the bird subtly turns and tilts its head in each successive shot, scanning left and right. Through the middle frames its posture adjusts while feathers ruffle, suggesting alertness. In the concluding frames the starling settles into a calm forward gaze, completing the loop of natural behavior.",
+        "visual_characteristics": "The frames feature soft natural lighting and a crisp focus on iridescent plumage, highlighting intricate feather patterns against a blurred pool background.",
+        "suitable_content_types": "Ideal for nature or wildlife documentaries showcasing avian behavior due to its observational pacing and detailed close-ups."
+      },
+      "scene": "backyard",
+      "actions": [
+        "perching on railing",
+        "tilting head",
+        "scanning surroundings"
+      ],
+      "objects": [
+        "railing",
+        "pool",
+        "wood",
+        "water",
+        "bird"
+      ],
+      "characters": "no people",
+      "continent_groups": [],
+      "camera_technique": [
+        "close-up",
+        "static"
+      ],
+      "cultural_elements": {
+        "temporal_context": "None",
+        "festival_event": "None",
+        "religion_symbol": "None",
+        "architecture_style": "None",
+        "language_script": "None",
+        "other_cultural": "None"
+      },
+      "time_weather": {
+        "time_of_day": "day",
+        "weather": "clear"
+      },
+      "color_tone": "cool",
+      "visual_style": "documentary",
+      "other_tags": [
+        "starling",
+        "wildlife",
+        "birdwatching",
+        "ornithology"
+      ]
+    },
+    "image_file": "a6a15197-3aa2-4fcf-82f8-cc78b503d8ce_grid_4xN.jpg",
+    "timestamp": "2025-07-23T20:51:18.683039",
+    "folder": "10006381"
+  }
+}

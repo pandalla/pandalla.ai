@@ -1,0 +1,47 @@
+{
+  "duration": 15.02,
+  "size": 10.43,
+  "bps": 5.83,
+  "codec": "H.264",
+  "type": "video/mp4",
+  "width": 1280,
+  "height": 720,
+  "aspect_ratio": "16:9",
+  "motion_status": 1.62,
+  "slow_motion_status": true,
+  "filename": "c4f3767b-5048-42f5-b093-f5e16b4a2a50",
+  "video_key": "one2x-pandalla-1304425019/video_data/c4f3767b-5048-42f5-b093-f5e16b4a2a50/c4f3767b-5048-42f5-b093-f5e16b4a2a50.mp4",
+  "thumb_key": "one2x-pandalla-1304425019/video_data/c4f3767b-5048-42f5-b093-f5e16b4a2a50/c4f3767b-5048-42f5-b093-f5e16b4a2a50_thumb.jpg",
+  "pexels_url": "https://www.pexels.com/video/traffic-on-street-in-city-10012279/",
+  "content": "The video frames depict a busy highway scene with multiple lanes of traffic moving in both directions. The setting is a clear day with greenery lining the sides of the road, and several modern buildings can be seen in the background. Each frame illustrates a different configuration of vehicles on the highway, showcasing the movement and flow of traffic typical of urban environments.",
+  "style": "The video has a clear, bright tone with natural lighting indicative of a sunny day. The style is realistic and documentary-like, emphasizing the activity and rhythm of urban life. The emotions conveyed are neutral, focusing on the everyday dynamics of city transportation. The composition is symmetrical, with the highway centrally aligned, directing focus to the continuous flow of vehicles.",
+  "suitable_content_types": "This imagery is appropriate for use in urban lifestyle documentaries, transportation and infrastructure analyses, city planning and development programs, or any content related to modern commuting and urban dynamics.",
+  "category": {
+    "level_1": "cities_and_architecture",
+    "level_2": "urban_life_and_activities"
+  },
+  "tags": [
+    "urban_landscape",
+    "traffic_flow",
+    "city_life",
+    "highway",
+    "transportation"
+  ],
+  "temporal_context": "universal",
+  "geographical_relevance": "universal",
+  "other_cultural_features": "universal",
+  "face_detection": "no_faces_detected",
+  "usage": {
+    "completion_tokens": 292,
+    "prompt_tokens": 3426,
+    "total_tokens": 3718,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 2432
+    }
+  }
+}

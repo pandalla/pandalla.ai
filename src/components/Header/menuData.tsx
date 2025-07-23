@@ -92,5 +92,11 @@ const menuData: Menu[] = [
     path: "/omniai",
     newTab: false,
   },
+  {
+    id: 7,
+    title: "video_gallery",
+    path: "/video-gallery",
+    newTab: false,
+  },
 ];
 export default menuData;

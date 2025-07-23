@@ -1,0 +1,45 @@
+{
+  "duration": 12.35,
+  "size": 2.84,
+  "bps": 1.93,
+  "codec": "H.264",
+  "type": "video/mp4",
+  "width": 1280,
+  "height": 720,
+  "aspect_ratio": "16:9",
+  "motion_status": 2.06,
+  "slow_motion_status": true,
+  "filename": "7072ff95-540b-4b60-adbe-afa9cf0cbb9c",
+  "video_key": "one2x-pandalla-1304425019/video_data/7072ff95-540b-4b60-adbe-afa9cf0cbb9c/7072ff95-540b-4b60-adbe-afa9cf0cbb9c.mp4",
+  "thumb_key": "one2x-pandalla-1304425019/video_data/7072ff95-540b-4b60-adbe-afa9cf0cbb9c/7072ff95-540b-4b60-adbe-afa9cf0cbb9c_thumb.jpg",
+  "pexels_url": "https://www.pexels.com/video/vendors-shelling-shrimps-at-a-wet-market-10039769/",
+  "content": "The video frames depict a seafood market scene, with a focus on shrimp being weighed and handled. The angle provides a close-up view of the seafood, highlighting both the texture and abundance of shrimps. The hands of a vendor are visible, suggesting interaction and trade, which conveys a sense of everyday commerce and the bustling activity typical of local markets.",
+  "style": "The visual style is grounded in realism, capturing the natural colors and textures of the seafood. The warm, natural lighting contributes to an authentic, lively market atmosphere. The overall tone is earthy and practical, emphasizing the sensory experience of a bustling market.",
+  "suitable_content_types": "This imagery is well-suited for content related to culinary arts, seafood industries, local markets, and cultural explorations of cuisine. It would fit well in documentaries about food sourcing, cooking shows focusing on seafood preparation, or travel vlogs exploring authentic local markets.",
+  "category": {
+    "level_1": "food_and_beverage",
+    "level_2": "ingredients_and_raw_materials"
+  },
+  "tags": [
+    "seafood_market",
+    "culinary_arts",
+    "local_cuisine",
+    "food_ingredients",
+    "market_scene"
+  ],
+  "temporal_context": "universal",
+  "geographical_relevance": "universal",
+  "other_cultural_features": "The presence of handwritten price tags and the style of the market setup may suggest cultural practices related to local markets and food trade.",
+  "face_detection": "no_faces_detected",
+  "usage": {
+    "completion_tokens": 317,
+    "prompt_tokens": 3426,
+    "total_tokens": 3743,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {}
+  }
+}

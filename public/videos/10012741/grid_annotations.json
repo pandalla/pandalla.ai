@@ -1,0 +1,51 @@
+{
+  "17cb79b4-71ce-4edc-be77-1a81ef66f3c1": {
+    "annotation": {
+      "description": {
+        "content": "As the clip opens in the top-left frame, a lone red car emerges around a bend on a mountain road flanked by dark forest. In the next frames moving right, the vehicle steadily descends the winding highway, hugging the curve cut into rocky embankments. In the bottom-left and bottom-middle frames, it draws closer under the steady aerial view, emphasizing the road’s serpentine shape. By the bottom-right frame, the car nears the frame’s edge against the rugged hillside as the sequence concludes.",
+        "visual_characteristics": "The sequence features a moody, muted color palette with deep shadows and symmetrical framing around the road’s curves, evoking solitude and cinematic tension.",
+        "suitable_content_types": "This sequence suits cinematic travel or automotive commercials, as well as dramatic montages highlighting journey and isolation."
+      },
+      "scene": "mountain road",
+      "actions": [
+        "driving around a bend",
+        "traversing a winding road"
+      ],
+      "objects": [
+        "car",
+        "road",
+        "forest",
+        "hill",
+        "embankment"
+      ],
+      "characters": "no people",
+      "continent_groups": [],
+      "camera_technique": [
+        "aerial drone shot",
+        "wide shot"
+      ],
+      "cultural_elements": {
+        "temporal_context": "None",
+        "festival_event": "None",
+        "religion_symbol": "None",
+        "architecture_style": "None",
+        "language_script": "None",
+        "other_cultural": "None"
+      },
+      "time_weather": {
+        "time_of_day": "dusk",
+        "weather": "clear"
+      },
+      "color_tone": "cool",
+      "visual_style": "cinematic",
+      "other_tags": [
+        "solitude",
+        "journey",
+        "automotive"
+      ]
+    },
+    "image_file": "17cb79b4-71ce-4edc-be77-1a81ef66f3c1_grid_4xN.jpg",
+    "timestamp": "2025-07-23T20:52:39.469042",
+    "folder": "10012741"
+  }
+}

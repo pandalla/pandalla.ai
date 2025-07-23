@@ -1,0 +1,45 @@
+{
+  "duration": 15.31,
+  "size": 2.03,
+  "bps": 1.11,
+  "codec": "H.264",
+  "type": "video/mp4",
+  "width": 1280,
+  "height": 720,
+  "aspect_ratio": "16:9",
+  "motion_status": 1.06,
+  "slow_motion_status": true,
+  "filename": "ebda20b9-6f76-4939-8055-df8df0454bd3",
+  "video_key": "one2x-pandalla-1304425019/video_data/ebda20b9-6f76-4939-8055-df8df0454bd3/ebda20b9-6f76-4939-8055-df8df0454bd3.mp4",
+  "thumb_key": "one2x-pandalla-1304425019/video_data/ebda20b9-6f76-4939-8055-df8df0454bd3/ebda20b9-6f76-4939-8055-df8df0454bd3_thumb.jpg",
+  "pexels_url": "https://www.pexels.com/video/fresh-shrimps-for-sale-10039773/",
+  "content": "The video frames depict a seafood market setting, focusing on a display of shrimp for sale. The gradual changes in lighting suggest a subtle play of natural light across the seafood, creating a dramatic effect. The signs in the background with pricing details add context to the scene, suggesting a commercial environment.",
+  "style": "The visual style emphasizes naturalistic and moody lighting, with a strong contrast between light and shadow. The close-up shots focus on texture and detail, creating an intimate and authentic market atmosphere. The tone is warm and somewhat rustic, evoking a sense of tradition and authenticity.",
+  "suitable_content_types": "This imagery is suitable for content related to culinary arts, seafood cuisine, market culture documentaries, food industry insights, and cooking shows. The focus on seafood and market environment can also be used in travel and lifestyle video content showcasing local traditions and food markets.",
+  "category": {
+    "level_1": "food_and_beverage",
+    "level_2": "ingredients_and_raw_materials"
+  },
+  "tags": [
+    "seafood_market",
+    "natural_lighting",
+    "culinary_arts",
+    "food_documentary",
+    "local_traditions"
+  ],
+  "temporal_context": "universal",
+  "geographical_relevance": "universal",
+  "other_cultural_features": "universal",
+  "face_detection": "no_faces_detected",
+  "usage": {
+    "completion_tokens": 289,
+    "prompt_tokens": 3426,
+    "total_tokens": 3715,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {}
+  }
+}

@@ -1,0 +1,23 @@
+node_modules
+.git
+.gitignore
+README.md
+.env
+.env.local
+.env.production.local
+.env.local
+.next
+.DS_Store
+*.tgz
+*.tar.gz
+coverage
+nyc_output
+.nyc_output
+.coverage
+.eslintcache
+.cache
+
+# Keep these important directories
+!public/videos
+!public/images
+!public/omniai

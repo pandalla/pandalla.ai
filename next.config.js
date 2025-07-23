@@ -18,6 +18,14 @@ const nextConfig = {
       },
     ],
   },
+  async rewrites() {
+    return [
+      {
+        source: '/test/:path*',
+        destination: '/api/static/test/:path*',
+      },
+    ];
+  },
 };
 
 module.exports = withNextIntl(nextConfig);

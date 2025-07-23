@@ -1,0 +1,53 @@
+{
+  "7072ff95-540b-4b60-adbe-afa9cf0cbb9c": {
+    "annotation": {
+      "description": {
+        "content": "As the clip opens, a vendor’s tattooed hands scoop translucent shrimp from a blue plastic basin, while a sign reading “$320” stands in the background. The sequence continues with the vendor carefully sorting and picking through the shrimp pile, letting some pieces fall back into the basin as the camera pans across a heap of glistening shellfish in the foreground. Soon after, the hands inspect individual shrimp, shaking off excess water before placing them back on display near a small white cup. In the final seconds, the vendor adjusts the presentation of the shrimp under warm stall lighting, emphasizing their fresh texture and sheen.",
+        "visual_characteristics": "The close-up, handheld composition uses warm market lighting to highlight the texture of the shrimp, creating an intimate, tactile atmosphere. Shadows and shallow depth of field focus attention on the vendor’s hands and the vivid, glistening seafood.",
+        "suitable_content_types": "This sequence suits a culinary documentary or street food vlog, capturing artisanal preparation and sensory detail of seafood."
+      },
+      "scene": "street market",
+      "actions": [
+        "sorting shrimp",
+        "scooping seafood",
+        "inspecting shrimp"
+      ],
+      "objects": [
+        "shrimp",
+        "basin",
+        "cup",
+        "sign",
+        "table"
+      ],
+      "characters": "no people",
+      "continent_groups": [],
+      "camera_technique": [
+        "close-up",
+        "handheld"
+      ],
+      "cultural_elements": {
+        "temporal_context": "None",
+        "festival_event": "None",
+        "religion_symbol": "None",
+        "architecture_style": "None",
+        "language_script": "Latin script",
+        "other_cultural": "None"
+      },
+      "time_weather": {
+        "time_of_day": "day",
+        "weather": "clear"
+      },
+      "color_tone": "warm",
+      "visual_style": "documentary",
+      "other_tags": [
+        "street food",
+        "seafood",
+        "market stall",
+        "tattoo"
+      ]
+    },
+    "image_file": "7072ff95-540b-4b60-adbe-afa9cf0cbb9c_grid_4xN.jpg",
+    "timestamp": "2025-07-23T20:51:25.830120",
+    "folder": "10039769"
+  }
+}

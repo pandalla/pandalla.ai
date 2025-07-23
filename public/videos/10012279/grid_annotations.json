@@ -1,0 +1,51 @@
+{
+  "c4f3767b-5048-42f5-b093-f5e16b4a2a50": {
+    "annotation": {
+      "description": {
+        "content": "As the clip opens, a static overhead wide shot captures a sunlit multilane highway with vehicles steadily driving away and toward the camera. Soon after, a mix of cars, vans, and trucks flow past the divider under the shade of roadside trees. In the final frames, new vehicles enter on both sides while earlier ones exit, maintaining a continuous rhythm of traffic.",
+        "visual_characteristics": "The composition is symmetrical and static, with natural high-contrast daylight illuminating moving shadows on the road, conveying a calm yet dynamic urban flow.",
+        "suitable_content_types": "Best suited as an establishing shot in documentaries or travel vlogs to showcase city infrastructure and traffic patterns."
+      },
+      "scene": "city street",
+      "actions": [
+        "driving",
+        "passing by"
+      ],
+      "objects": [
+        "car",
+        "van",
+        "truck",
+        "highway",
+        "tree"
+      ],
+      "characters": "no people",
+      "continent_groups": [],
+      "camera_technique": [
+        "wide shot",
+        "static"
+      ],
+      "cultural_elements": {
+        "temporal_context": "None",
+        "festival_event": "None",
+        "religion_symbol": "None",
+        "architecture_style": "None",
+        "language_script": "None",
+        "other_cultural": "None"
+      },
+      "time_weather": {
+        "time_of_day": "day",
+        "weather": "clear"
+      },
+      "color_tone": "high-contrast",
+      "visual_style": "documentary",
+      "other_tags": [
+        "traffic",
+        "infrastructure",
+        "urban"
+      ]
+    },
+    "image_file": "c4f3767b-5048-42f5-b093-f5e16b4a2a50_grid_4xN.jpg",
+    "timestamp": "2025-07-23T20:50:39.714096",
+    "folder": "10012279"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "duration": 13.39,
+  "size": 3.0,
+  "bps": 1.88,
+  "codec": "H.264",
+  "type": "video/mp4",
+  "width": 1280,
+  "height": 720,
+  "aspect_ratio": "16:9",
+  "motion_status": 1.46,
+  "slow_motion_status": true,
+  "filename": "0a086025-78af-43ee-a407-1221b1939426",
+  "video_key": "one2x-pandalla-1304425019/video_data/0a086025-78af-43ee-a407-1221b1939426/0a086025-78af-43ee-a407-1221b1939426.mp4",
+  "thumb_key": "one2x-pandalla-1304425019/video_data/0a086025-78af-43ee-a407-1221b1939426/0a086025-78af-43ee-a407-1221b1939426_thumb.jpg",
+  "pexels_url": "https://www.pexels.com/video/close-up-of-red-fish-10039776/",
+  "content": "The video frames depict close-up images of fresh red fish, likely red snapper, with a focus on their vibrant scales and eyes. The series of images are very similar, highlighting the texture and color of the fish, suggesting an emphasis on freshness and quality. These frames suggest a video theme centered around seafood or fish markets.",
+  "style": "The visual style is vivid and detailed, with a focus on the natural texture and color of the fish. The tone is bright and natural, capturing the freshness and vibrancy of the seafood. The emotions conveyed include a sense of quality, freshness, and perhaps the bustling nature of a market environment. The composition is focused and close-up, drawing attention to the details of the fish, such as their eyes and scales.",
+  "suitable_content_types": "These visuals are suitable for content related to food documentaries, seafood cooking shows, fish market promotions, or educational materials about marine life and seafood preparation.",
+  "category": {
+    "level_1": "food_and_beverage",
+    "level_2": "food_production_and_processing"
+  },
+  "tags": [
+    "seafood",
+    "fish_market",
+    "fresh_food",
+    "marine_life",
+    "culinary"
+  ],
+  "temporal_context": "universal",
+  "geographical_relevance": "universal",
+  "other_cultural_features": "universal",
+  "face_detection": "no_faces_detected",
+  "usage": {
+    "completion_tokens": 297,
+    "prompt_tokens": 3426,
+    "total_tokens": 3723,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 2432
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "7287fc07-00ce-40d0-8704-3bd9aadc8a3c": {
+    "annotation": {
+      "description": {
+        "content": "As the clip opens, a rugged off-road buggy coated in mud advances toward a shallow swamp at the edge of a pine forest. Soon after, its chunky tires churn through murky water, splattering mud across the bank while two observers watch. In the following frames, the driver struggles to maintain traction as water and mud fly in every direction. In the final shots, the vehicle’s front end emerges onto firmer ground, the driver steering it back onto the trail.",
+        "visual_characteristics": "Bright natural lighting highlights vivid greens of the foliage and deep blues of the sky, while the muddy textures and dynamic composition convey a tense, adventurous mood.",
+        "suitable_content_types": "Best suited for an outdoor adventure vlog or off-road documentary, given its emphasis on rugged terrain and vehicle performance."
+      },
+      "scene": "forest clearing",
+      "actions": [
+        "driving through mud",
+        "spinning wheels",
+        "watching the challenge"
+      ],
+      "objects": [
+        "buggy",
+        "tire",
+        "mud",
+        "water",
+        "tree"
+      ],
+      "characters": "3 men",
+      "continent_groups": [
+        "Western",
+        "Western",
+        "Western"
+      ],
+      "camera_technique": [
+        "wide shot",
+        "handheld"
+      ],
+      "cultural_elements": {
+        "temporal_context": "None",
+        "festival_event": "None",
+        "religion_symbol": "None",
+        "architecture_style": "None",
+        "language_script": "None",
+        "other_cultural": "None"
+      },
+      "time_weather": {
+        "time_of_day": "day",
+        "weather": "clear"
+      },
+      "color_tone": "natural",
+      "visual_style": "cinematic",
+      "other_tags": [
+        "off-road",
+        "mud",
+        "outdoors",
+        "adventure"
+      ]
+    },
+    "image_file": "7287fc07-00ce-40d0-8704-3bd9aadc8a3c_grid_4xN.jpg",
+    "timestamp": "2025-07-23T20:51:26.467354",
+    "folder": "10005907"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "ebda20b9-6f76-4939-8055-df8df0454bd3": {
+    "annotation": {
+      "description": {
+        "content": "As the sequence begins, a dimly lit tray of fresh shrimp glistens under a focused beam of light. In the following frames, subtle shifts in illumination accentuate the orange and pink tones of the piled seafood. By the final frame, the play of shadows across the shrimp highlights their texture and form in a moody, high-contrast presentation.",
+        "visual_characteristics": "Moody, high-contrast composition with warm highlights, shallow depth of field, and emphasis on texture and color variation. The overall tone feels cinematic and intimate, evoking the sensory richness of a food market.",
+        "suitable_content_types": "Best suited for culinary documentaries, food market vlogs, or atmospheric cooking show segments that emphasize the authenticity and allure of fresh ingredients."
+      },
+      "scene": "market stall",
+      "actions": [
+        "displaying shrimp",
+        "highlighting seafood"
+      ],
+      "objects": [
+        "shrimp",
+        "tray",
+        "sign",
+        "cup",
+        "table"
+      ],
+      "characters": "no people",
+      "continent_groups": [],
+      "camera_technique": [
+        "static",
+        "close-up"
+      ],
+      "cultural_elements": {
+        "temporal_context": "None",
+        "festival_event": "None",
+        "religion_symbol": "None",
+        "architecture_style": "None",
+        "language_script": "None",
+        "other_cultural": "None"
+      },
+      "time_weather": {
+        "time_of_day": "indoor",
+        "weather": "None"
+      },
+      "color_tone": "warm",
+      "visual_style": "cinematic",
+      "other_tags": [
+        "seafood",
+        "market",
+        "stall"
+      ]
+    },
+    "image_file": "ebda20b9-6f76-4939-8055-df8df0454bd3_grid_4xN.jpg",
+    "timestamp": "2025-07-23T20:50:35.485305",
+    "folder": "10039773"
+  }
+}

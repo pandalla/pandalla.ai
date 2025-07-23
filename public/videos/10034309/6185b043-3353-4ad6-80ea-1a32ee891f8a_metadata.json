@@ -1,0 +1,45 @@
+{
+  "duration": 15.0,
+  "size": 6.28,
+  "bps": 3.35,
+  "codec": "H.264",
+  "type": "video/mp4",
+  "width": 1920,
+  "height": 1080,
+  "aspect_ratio": "16:9",
+  "content": "The series of images captures a moment of serene grace and ethereal beauty. Each frame features an individual interacting gracefully with a light, flowing fabric against a soft, natural background, embodying a sense of freedom and tranquility. The movement of the fabric in the breeze suggests fluidity and a connection with nature, enhancing the overall dreamlike quality of the visuals.",
+  "style": "The visuals employ a style that is both airy and delicate, characterized by cool tones with a predominance of soft blues and whites. The imagery exudes an ethereal and peaceful emotion, suggesting introspection and liberation. Compositionally, the images focus on the dynamic interplay between the subject and the fabric, with the sunlight subtly filtering through the fabric to create soft silhouettes and gentle highlights.",
+  "suitable_content_types": "These visuals are suitable for content focused on themes of personal freedom, introspection, fashion and lifestyle, or wellness and relaxation. They would fit well into artistic projects, advertisements for delicate fabrics or beauty products, or videos exploring themes of nature and human connection.",
+  "category": {
+    "level_1": "culture_and_arts",
+    "level_2": "performing_arts"
+  },
+  "tags": [
+    "ethereal",
+    "soft_blues",
+    "dreamlike",
+    "freedom",
+    "nature_connection"
+  ],
+  "temporal_context": "universal",
+  "geographical_relevance": "universal",
+  "other_cultural_features": "universal",
+  "face_detection": "yellow",
+  "usage": {
+    "completion_tokens": 317,
+    "prompt_tokens": 3248,
+    "total_tokens": 3565,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {}
+  },
+  "motion_status": 2.9600000381469727,
+  "slow_motion_status": true,
+  "filename": "6185b043-3353-4ad6-80ea-1a32ee891f8a",
+  "video_key": "one2x-pandalla-1304425019/video_data/10034309/6185b043-3353-4ad6-80ea-1a32ee891f8a.mp4",
+  "thumb_key": "one2x-pandalla-1304425019/video_data/10034309/6185b043-3353-4ad6-80ea-1a32ee891f8a_thumb.jpg",
+  "pexels_url": "https://www.pexels.com/video/portrait-of-redhead-woman-in-blue-dress-surrounded-with-transparent-textile-in-field-10034309/"
+}

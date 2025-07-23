@@ -1,0 +1,45 @@
+{
+  "duration": 13.44,
+  "size": 11.64,
+  "bps": 6.93,
+  "codec": "H.264",
+  "type": "video/mp4",
+  "width": 1440,
+  "height": 1080,
+  "aspect_ratio": "4:3",
+  "motion_status": 11.39,
+  "slow_motion_status": false,
+  "filename": "3d820a4d-0687-4b97-8dcd-6a873d29b5c4",
+  "video_key": "one2x-pandalla-1304425019/video_data/3d820a4d-0687-4b97-8dcd-6a873d29b5c4/3d820a4d-0687-4b97-8dcd-6a873d29b5c4.mp4",
+  "thumb_key": "one2x-pandalla-1304425019/video_data/3d820a4d-0687-4b97-8dcd-6a873d29b5c4/3d820a4d-0687-4b97-8dcd-6a873d29b5c4_thumb.jpg",
+  "pexels_url": "https://www.pexels.com/video/barbary-macaque-with-young-in-grassy-field-10006282/",
+  "content": "These video frames depict a tender moment between a mother monkey and her baby in a natural setting. The baby is seen clinging to the mother's back as they move through a grassy environment, suggesting a scene of protection and care within the animal kingdom.",
+  "style": "The imagery employs natural and earthy tones, primarily greens and browns, creating a serene and organic atmosphere. The style is documentary-like, focusing on wildlife and the natural behaviors of animals. The emotions conveyed are of warmth, maternal care, and the innocence of young life. The composition highlights the bond between mother and child, with an emphasis on the natural setting around them.",
+  "suitable_content_types": "This imagery is well-suited for wildlife documentaries, educational content about animal behavior and biology, nature conservation campaigns, or any content focusing on the beauty and intricacies of animal life.",
+  "category": {
+    "level_1": "nature_and_environment",
+    "level_2": "flora_fauna_and_ecology"
+  },
+  "tags": [
+    "wildlife",
+    "animal_behavior",
+    "nature",
+    "motherhood",
+    "documentary"
+  ],
+  "temporal_context": "universal",
+  "geographical_relevance": "universal",
+  "other_cultural_features": "universal",
+  "face_detection": "no_faces_detected",
+  "usage": {
+    "completion_tokens": 278,
+    "prompt_tokens": 3426,
+    "total_tokens": 3704,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {}
+  }
+}

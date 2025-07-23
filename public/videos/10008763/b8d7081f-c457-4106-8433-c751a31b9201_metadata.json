@@ -1,0 +1,47 @@
+{
+  "duration": 6.21,
+  "size": 6.3,
+  "bps": 8.52,
+  "codec": "H.264",
+  "type": "video/mp4",
+  "width": 1280,
+  "height": 720,
+  "aspect_ratio": "16:9",
+  "motion_status": 10.72,
+  "slow_motion_status": false,
+  "filename": "b8d7081f-c457-4106-8433-c751a31b9201",
+  "video_key": "one2x-pandalla-1304425019/video_data/b8d7081f-c457-4106-8433-c751a31b9201/b8d7081f-c457-4106-8433-c751a31b9201.mp4",
+  "thumb_key": "one2x-pandalla-1304425019/video_data/b8d7081f-c457-4106-8433-c751a31b9201/b8d7081f-c457-4106-8433-c751a31b9201_thumb.jpg",
+  "pexels_url": "https://www.pexels.com/video/close-up-shot-of-black-ants-10008763/",
+  "content": "The video frames depict a group of ants traversing a sandy terrain, illustrating a natural scene that highlights the organization and collective behavior of ants in their natural habitat. The images capture the intricate details of the ants and the texture of the ground, providing a close-up view of these insects in action.",
+  "style": "The visual tone is earthy and natural, with warm tones primarily consisting of browns and tans. The style is reminiscent of wildlife documentary photography, focusing on capturing the details and behaviors of small creatures in their natural environment. The emotions conveyed are those of curiosity and fascination with the natural world, emphasizing the intricate and organized behavior of ants. The composition focuses on the linear arrangement of the ants, drawing attention to their collective movement across the frame.",
+  "suitable_content_types": "This imagery is appropriate for educational videos about entomology, wildlife documentaries, environmental and nature-focused content, or any video aiming to highlight the beauty and complexity of nature's smaller creatures.",
+  "category": {
+    "level_1": "nature_and_environment",
+    "level_2": "flora_fauna_and_ecology"
+  },
+  "tags": [
+    "ants",
+    "nature",
+    "wildlife",
+    "insects",
+    "ecology"
+  ],
+  "temporal_context": "universal",
+  "geographical_relevance": "universal",
+  "other_cultural_features": "universal",
+  "face_detection": "no_faces_detected",
+  "usage": {
+    "completion_tokens": 301,
+    "prompt_tokens": 3426,
+    "total_tokens": 3727,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 2432
+    }
+  }
+}
