@@ -24,7 +24,7 @@ interface PaginationInfo {
 }
 
 const TextGallery = () => {
-  const t = useTranslations();
+  const t = useTranslations('TextGallery');
   const [textData, setTextData] = useState<TextData[]>([]);
   const [selectedCategory, setSelectedCategory] = useState<'all' | 'math' | 'code'>('all');
   const [loading, setLoading] = useState(true);
@@ -101,22 +101,21 @@ const TextGallery = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Text Gallery"
-        description="Explore our collection of math and code text samples with detailed analysis and solutions"
+        pageName={t('title')}
+        description={t('subtitle')}
       />
 
       <section className="pb-[120px] pt-[120px]">
         <div className="container">
           <div className="mx-auto mb-[60px] max-w-[510px] text-center">
             <span className="mb-2 block text-lg font-semibold text-primary">
-              Text Dataset
+              {t('pageTitle')}
             </span>
             <h2 className="mb-4 text-3xl font-bold text-black dark:text-white sm:text-4xl md:text-[40px]">
-              Text Gallery
+              {t('title')}
             </h2>
             <p className="text-base text-body-color dark:text-body-color-dark">
-              Browse through our curated collection of mathematics and programming text samples 
-              with detailed solutions and explanations for AI training and research purposes.
+              {t('pageSubtitle')}
             </p>
           </div>
 
