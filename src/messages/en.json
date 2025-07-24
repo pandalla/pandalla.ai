@@ -128,6 +128,32 @@
   "Brands": {
     "title": "Trusted by Global Brands"
   },
+  "Video": {
+    "title": "AI-Driven Synthetic Video Annotation is coming",
+    "subtitle": "Our technology meticulously analyzes and annotates every aspect of the video, from camera movements to visual elements, providing rich training data for large language models and computer vision systems."
+  },
+  "VideoGallery": {
+    "title": "Video Gallery",
+    "subtitle": "Explore our collection of annotated video samples with detailed metadata and visual analysis",
+    "pageTitle": "Video Collection",
+    "pageSubtitle": "Browse through our curated collection of video samples with rich annotations, metadata, and visual analysis for AI training and research purposes."
+  },
+  "TextGallery": {
+    "title": "Text Gallery", 
+    "subtitle": "Explore our collection of math and code text samples with detailed analysis and solutions",
+    "pageTitle": "Text Dataset",
+    "pageSubtitle": "Browse through our curated collection of mathematics and programming text samples with detailed solutions and explanations for AI training and research purposes."
+  },
+  "PageTitles": {
+    "about": "About Us",
+    "aboutSubtitle": "We are pioneers in the field of data synthesis, offering innovative solutions grounded in deep industry insights. Through advanced algorithms and extensive experience, we generate high-quality synthetic data that meets the needs of diverse industries. We believe that as data privacy regulations become stricter and AI rapidly evolves, synthetic data will be crucial for future data-driven decision-making. Our technology not only protects privacy but also enhances data usability and diversity, creating limitless possibilities for our clients.",
+    "features": "Features",
+    "featuresSubtitle": "Discover our powerful suite of tools designed to elevate your business. Innovative solutions tailored to your needs.",
+    "blog": "Pandalla Blog",
+    "blogSubtitle": "Compiled notes from the team",
+    "contact": "Contact Us",
+    "contactSubtitle": "Connect with us to explore how our innovative data synthesis solutions can transform your business. Whether you're looking to enhance data privacy, improve AI model training, or gain deeper insights without compromising sensitive information, our team is here to help. Let's discuss how we can tailor our cutting-edge technology to meet your unique needs and drive your data-driven initiatives forward."
+  },
   "Common": {
     "learnMore": "Learn More",
     "getStarted": "Get Started", 

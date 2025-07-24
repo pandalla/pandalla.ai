@@ -3,11 +3,13 @@ import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import SectionTitle from "../Common/SectionTitle";
 import SingleFeature from "./SingleFeature";
-import featuresData from "./featuresData";
+import createFeaturesData from "./featuresData";
 import { animations } from '@/lib/animations';
 
 const Features = () => {
   const t = useTranslations('Features');
+  const featuresData = createFeaturesData(t);
+  
   return (
     <>
       <section id="features" className="py-16 md:py-20 lg:py-28 font-inter">

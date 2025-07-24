@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import { useTranslations } from 'next-intl';
 import SectionTitle from "../Common/SectionTitle";
 import ScrollAnimation from "../common/ScrollAnimation";
 
@@ -9,13 +10,14 @@ import ModalVideo from "react-modal-video";
 
 const Video = () => {
   const [isOpen, setOpen] = useState(false);
+  const t = useTranslations('Video');
 
   return (
     <section className="relative z-10 py-16 md:py-20 lg:py-28 font-inter">
       <div className="container">
         <SectionTitle
-          title="AI-Driven Synthetic Video Annotation is coming"
-          paragraph="Our technology meticulously analyzes and annotates every aspect of the video, from camera movements to visual elements, providing rich training data for large language models and computer vision systems."
+          title={t('title')}
+          paragraph={t('subtitle')}
           center
           mb="80px"
         />
