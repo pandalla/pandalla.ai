@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { useTranslations } from 'next-intl';
 import SectionTitle from "../Common/SectionTitle";
+import ScrollAnimation from "../common/ScrollAnimation";
 
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
@@ -26,49 +27,52 @@ const AboutSectionOne = () => {
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
-              <SectionTitle
-                title={t('title')}
-                paragraph={t('description')}
-                mb="44px"
-              />
+              <ScrollAnimation direction="left" delay={0.1}>
+                <SectionTitle
+                  title={t('title')}
+                  paragraph={t('description')}
+                  mb="44px"
+                />
+              </ScrollAnimation>
 
-              <div
-                className="mb-12 max-w-[570px] lg:mb-0"
-                data-wow-delay=".15s"
-              >
-                <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text={t('features.0')} />
-                    <List text={t('features.1')} />
-                    <List text={t('features.2')} />
-                  </div>
+              <ScrollAnimation direction="left" delay={0.2}>
+                <div className="mb-12 max-w-[570px] lg:mb-0">
+                  <div className="mx-[-12px] flex flex-wrap">
+                    <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
+                      <List text={t('features.0')} />
+                      <List text={t('features.1')} />
+                      <List text={t('features.2')} />
+                    </div>
 
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text={t('features.3')} />
-                    <List text={t('features.4')} />
-                    <List text={t('features.5')} />
+                    <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
+                      <List text={t('features.3')} />
+                      <List text={t('features.4')} />
+                      <List text={t('features.5')} />
+                    </div>
                   </div>
                 </div>
-              </div>
+              </ScrollAnimation>
             </div>
 
             <div className="w-full px-4 lg:w-1/2">
-              <div className="relative mx-auto max-w-[900px] lg:mr-0">
-                <Image
-                  src="/images/about/2era_alignment.png"
-                  alt="AI Model Alignment Evolution"
-                  width={600}
-                  height={576}
-                  className="mx-auto max-w-full w-full h-auto drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
-                />
-                <Image
-                  src="/images/about/2era_alignment.png"
-                  alt="AI Model Alignment Evolution"
-                  width={600}
-                  height={576}
-                  className="mx-auto hidden max-w-full w-full h-auto drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
-                />
-              </div>
+              <ScrollAnimation direction="right" delay={0.3}>
+                <div className="relative mx-auto max-w-[900px] lg:mr-0">
+                  <Image
+                    src="/images/about/2era_alignment.png"
+                    alt="AI Model Alignment Evolution"
+                    width={600}
+                    height={576}
+                    className="mx-auto max-w-full w-full h-auto drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
+                  />
+                  <Image
+                    src="/images/about/2era_alignment.png"
+                    alt="AI Model Alignment Evolution"
+                    width={600}
+                    height={576}
+                    className="mx-auto hidden max-w-full w-full h-auto drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
+                  />
+                </div>
+              </ScrollAnimation>
             </div>
           </div>
         </div>

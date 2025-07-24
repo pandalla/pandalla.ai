@@ -2,6 +2,8 @@
 import Link from "next/link";
 import { useTranslations, useLocale } from 'next-intl';
 import { motion } from 'framer-motion';
+import { animations } from '@/lib/animations';
+import AnimatedBackground from '../common/AnimatedBackground';
 
 const Hero = () => {
   const t = useTranslations('Hero');
@@ -12,6 +14,7 @@ const Hero = () => {
         id="home"
         className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px] "
       >
+        <AnimatedBackground variant="hero" />
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
@@ -65,13 +68,20 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
-          <svg
+        <motion.div 
+          className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100"
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1.2, delay: 0.8 }}
+        >
+          <motion.svg
             width="450"
             height="556"
             viewBox="0 0 450 556"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            animate={{ rotate: [0, 5, -5, 0] }}
+            transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
           >
             <circle
               cx="277"
@@ -201,9 +211,14 @@ const Hero = () => {
                 <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
               </linearGradient>
             </defs>
-          </svg>
-        </div>
-        <div className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100">
+          </motion.svg>
+        </motion.div>
+        <motion.div 
+          className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100"
+          initial={{ opacity: 0, x: -50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1.2, delay: 1 }}
+        >
           <svg
             width="364"
             height="201"
@@ -305,7 +320,7 @@ const Hero = () => {
               </radialGradient>
             </defs>
           </svg>
-        </div>
+        </motion.div>
       </section>
     </>
   );
