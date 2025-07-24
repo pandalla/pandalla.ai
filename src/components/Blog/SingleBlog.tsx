@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import ScrollAnimation from "../common/ScrollAnimation";
+import ScrollAnimation from "../Common/ScrollAnimation";
 
 const SingleBlog = ({ blog }) => {
   if (!blog) {

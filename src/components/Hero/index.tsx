@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useTranslations, useLocale } from 'next-intl';
 import { motion } from 'framer-motion';
 import { animations } from '@/lib/animations';
-import AnimatedBackground from '../common/AnimatedBackground';
+import AnimatedBackground from '../Common/AnimatedBackground';
 
 const Hero = () => {
   const t = useTranslations('Hero');

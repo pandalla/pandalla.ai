@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { useTranslations } from 'next-intl';
 import SectionTitle from "../Common/SectionTitle";
-import ScrollAnimation from "../common/ScrollAnimation";
+import ScrollAnimation from "../Common/ScrollAnimation";
 
 import ModalVideo from "react-modal-video";
 

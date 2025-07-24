@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ScrollAnimation from "../common/ScrollAnimation";
+import ScrollAnimation from "../Common/ScrollAnimation";
 
 const AboutSectionTwo = () => {
   return (

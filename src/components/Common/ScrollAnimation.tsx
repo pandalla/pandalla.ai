@@ -31,12 +31,7 @@ const getVariants = (direction: string, distance: number) => {
       x: 0, 
       y: 0, 
       scale: 1, 
-      opacity: 1,
-      transition: {
-        type: "spring",
-        damping: 20,
-        stiffness: 100
-      }
+      opacity: 1
     }
   };
 };
