@@ -5,7 +5,7 @@
     "features": "機能",
     "blog": "ブログ",
     "contact": "お問い合わせ",
-    "omniai": "オムニAI",
+    "pandalla_api": "PandallaAPI",
     "video_gallery": "ビデオギャラリー",
     "text_gallery": "テキストギャラリー"
   },
@@ -13,7 +13,7 @@
     "title": "より良いデータがあなたに必要なすべて",
     "subtitle": "実際のデータ品質を上回る、優れたテキスト、画像、動画データを生成します。高度なデータ合成とデータ拡張技術により、データ量と収集の制限から解放されます。",
     "contactBtn": "お問い合わせ",
-    "omniaiBtn": "オムニAI"
+    "pandallaBtn": "PandallaAPI"
   },
   "About": {
     "title": "最先端の合成データソリューション",

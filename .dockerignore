@@ -20,4 +20,4 @@ nyc_output
 # Keep these important directories
 !public/videos
 !public/images
-!public/omniai
+!public/brands

@@ -88,8 +88,8 @@ const menuData: Menu[] = [
   },
   {
     id: 6,
-    title: "omniai",
-    path: "/omniai",
+    title: "pandalla_api",
+    path: "https://api.pandalla.ai",
     newTab: false,
   },
   {

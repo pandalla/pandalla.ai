@@ -57,10 +57,11 @@ const Hero = () => {
                     whileTap={{ scale: 0.95 }}
                   >
                     <Link
-                      href={`/${locale}/omniai`}
+                      href="https://api.pandalla.ai"
+                      prefetch={false}
                       className="rounded-full border-2 border-primary bg-transparent px-10 py-4 text-lg font-bold text-primary transition duration-300 ease-in-out hover:bg-primary hover:text-white"
                     >
-                      {t('omniaiBtn')}
+                      {t('pandallaBtn')}
                     </Link>
                   </motion.div>
                 </motion.div>
