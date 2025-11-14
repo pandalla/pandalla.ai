@@ -2,21 +2,21 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const logos = [
-    '/omniai/brands/openai_logo.svg',
-    '/omniai/brands/claude_logo.svg',
-    '/omniai/brands/qwen_logo.svg',
-    '/omniai/brands/mistral_logo.svg',
-    '/omniai/brands/stability_logo.svg',
-    '/omniai/brands/suno_logo.svg',
+    '/brands/openai_logo.svg',
+    '/brands/claude_logo.svg',
+    '/brands/qwen_logo.svg',
+    '/brands/mistral_logo.svg',
+    '/brands/stability_logo.svg',
+    '/brands/suno_logo.svg',
 ];
 
-export default function OmniAI() {
+export default function PandallaAPI() {
     return (
         <div className="min-h-screen bg-white text-gray-900 overflow-x-hidden">
             {/* Navigation */}
             <nav className="flex justify-between items-center px-[5%] py-4 bg-white/95 fixed top-0 w-full z-50">
                 <div className="flex items-center gap-2 text-2xl font-bold text-blue-600">
-                    OmniAI
+                    PandallaAPI
                 </div>
                 <div className="flex gap-8 items-center">
                     <Link href="https://apidoc.pandalla.ai"
@@ -42,7 +42,7 @@ export default function OmniAI() {
                 </h1>
                 <div
                     className="text-6xl md:text-7xl font-bold my-8 bg-gradient-to-r from-blue-500 via-teal-500 to-green-500 text-transparent bg-clip-text">
-                    OmniAI
+                    PandallaAPI
                 </div>
                 <div className="max-w-3xl mx-auto mb-12 text-lg text-gray-700 leading-relaxed">
                     <p>以更实惠的价格提供企业级API服务，所有主流AI模型一站式访问！</p>

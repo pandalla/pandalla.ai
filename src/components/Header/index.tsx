@@ -43,6 +43,18 @@ const Header = () => {
 
   const usePathName = usePathname();
 
+  const getMenuHref = (path?: string) => {
+    if (!path) {
+      return `/${locale}`;
+    }
+
+    if (path.startsWith("http")) {
+      return path;
+    }
+
+    return path === "/" ? `/${locale}` : `/${locale}${path}`;
+  };
+
   return (
     <>
       <header
@@ -110,20 +122,32 @@ const Header = () => {
                   }`}
                 >
                   <ul className="block lg:flex lg:space-x-12">
-                    {menuData.map((menuItem, index) => (
-                      <li key={index} className="group relative">
-                        {menuItem.path ? (
-                          <Link
-                            href={`/${locale}${menuItem.path}`}
-                            className={`flex py-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
-                              usePathName === `/${locale}${menuItem.path}`
-                                ? "text-primary dark:text-white"
-                                : "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
-                            }`}
-                          >
-                            {t(menuItem.title)}
-                          </Link>
-                        ) : (
+                    {menuData.map((menuItem, index) => {
+                      const path = menuItem.path ?? "";
+                      const hasPath = Boolean(path);
+                      const isExternalLink = hasPath && path.startsWith("http");
+                      const href = hasPath ? getMenuHref(path) : "";
+                      const isActive =
+                        hasPath && !isExternalLink && usePathName === href;
+                      const openInNewTab = menuItem.newTab;
+
+                      return (
+                        <li key={index} className="group relative">
+                          {hasPath ? (
+                            <Link
+                              href={href}
+                              prefetch={!isExternalLink}
+                              target={openInNewTab ? "_blank" : undefined}
+                              rel={openInNewTab ? "noopener noreferrer" : undefined}
+                              className={`flex py-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
+                                isActive
+                                  ? "text-primary dark:text-white"
+                                  : "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
+                              }`}
+                            >
+                              {t(menuItem.title)}
+                            </Link>
+                          ) : (
                           <>
                             <p
                               onClick={() => handleSubmenu(index)}
@@ -157,9 +181,10 @@ const Header = () => {
                               ))}
                             </div>
                           </>
-                        )}
-                      </li>
-                    ))}
+                          )}
+                        </li>
+                      );
+                    })}
                   </ul>
                 </nav>
               </div>

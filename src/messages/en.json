@@ -5,7 +5,7 @@
     "features": "Features", 
     "blog": "Blog",
     "contact": "Contact",
-    "omniai": "OmniAI",
+    "pandalla_api": "PandallaAPI",
     "video_gallery": "Video Gallery",
     "text_gallery": "Text Gallery"
   },
@@ -13,7 +13,7 @@
     "title": "Better data is all you need",
     "subtitle": "We generate superior text, image, and video data, surpassing real data quality. Using advanced Data Synthesis and Data Augmentation, free you from data quantity and collection limitations.",
     "contactBtn": "CONTACT",
-    "omniaiBtn": "OMNIAI"
+    "pandallaBtn": "PandallaAPI"
   },
   "About": {
     "title": "Leading Synthetic Data Solutions",

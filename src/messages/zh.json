@@ -5,7 +5,7 @@
     "features": "功能特性",
     "blog": "博客",
     "contact": "联系我们",
-    "omniai": "全能AI",
+    "pandalla_api": "PandallaAPI",
     "video_gallery": "视频展示",
     "text_gallery": "文本展示"
   },
@@ -13,7 +13,7 @@
     "title": "更好的数据就是您所需要的一切",
     "subtitle": "我们生成卓越的文本、图像和视频数据，超越真实数据质量。采用先进的数据合成和数据增强技术，让您摆脱数据数量和收集限制。",
     "contactBtn": "联系我们",
-    "omniaiBtn": "全能AI"
+    "pandallaBtn": "PandallaAPI"
   },
   "About": {
     "title": "领先的合成数据解决方案",
